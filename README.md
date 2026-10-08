@@ -18,6 +18,8 @@ Python 3.10 or newer and NumPy are sufficient. No model weights, GPU, account,
 network connection after cloning, or author-server path is needed. On Windows,
 use `--work-dir C:/r2d2_tmp` if the nested historical archives need a short path.
 Do not run Python with `-O`, which disables assertions.
+The repository's `.gitattributes` preserves frozen file bytes on all operating
+systems; automatic line-ending conversion must not alter hash-bound evidence.
 
 The single entry point verifies the public manifest and original 188-file
 manifest, independently reconstructs specialist results, corrected mathematics,

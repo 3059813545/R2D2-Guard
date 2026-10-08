@@ -3,7 +3,8 @@
   "version": "v1.0.0",
   "scope": "Public code and recorded evidence; weight assets have a separate manifest; self-manifest, git internals and user output excluded.",
   "files": {
-    ".github/workflows/reproduce.yml": "c2c9ab31f6b6d93a1409de6af7e0dadd8e9828ed532b017d5f86c13a3116a720",
+    ".gitattributes": "37a92ba2313dfe4e276fe111c33bac667fc7da2b18a709961fe19f2238d42d5f",
+    ".github/workflows/reproduce.yml": "2a041df404a8fbcb91aa783579a959add0c8d7d4512d0f9f3d93a3d0f3ad8e7f",
     ".gitignore": "ed9d33d807ee14f7db2d02a199ad60f70fac4004b6faa50e20eb6660cc76dda0",
     "ADAPTER_WEIGHTS.json": "c765f6ffbeea60219e1daaa814bffd738ab558ef87acff1aae5bd5f876f87a54",
     "adaptive_nei_gated_v1/COMPLETE.json": "f86a27d5abfadf557d04eabf28ab5766499ca3f9d52e74b570c2f508ffc20324",
@@ -122,7 +123,7 @@
     "INDEPENDENT_VERIFICATION_20261008.json": "bae83313c6cb60c5e64a3b465f134609f529b1dd47420ce70a4ca481cf8e6517",
     "LICENSE": "d32142c1f0ba5887e62eb9924172c611ad3696a66feb2ada495812a241e06234",
     "MANIFEST_SHA256.json": "c9906e7656de9aa607caa8cb2dd04b6f6ec846d30f2a4568b031f1f3326eeacd",
-    "README.md": "c20f237e226a8bd96019cbc6088f3ed6028ee1cbc72c307a078e671c598f2979",
+    "README.md": "15f4d125156f1d7db9a137e0cc2dbc79df6ad4aed961c32235a51b155304b7b4",
     "README_REVIEWER.md": "caaadfffc8a17638564ec025a71c5f1ff3c97ee57f8036a0c300bfdf1df46110",
     "README_START_HERE.md": "51025b97475f1d55c772a75207fa636bbe1860a9d08f02d8e52d99e36cf38933",
     "RECORDED_ENVIRONMENT.json": "c641264587cbac757afadfa0ba56f39404c21a0bcea4429c44f8d226960a0b30",
