@@ -1,0 +1,273 @@
+{
+  "passed": true,
+  "scope": "Sensitivity audit on frozen outputs; measured v1 receipts remain historical evidence. V2 selections have no new delivery confirmation.",
+  "core_requests": 680,
+  "core_policy_decisions_per_version": 4760,
+  "boundary_assertions_passed": 26,
+  "core_candidate_field_changes": 8,
+  "core_candidate_route_changes": 0,
+  "core_endpoint_changes": [
+    {
+      "dataset": "gsm8k_qwen_seed42",
+      "policy": "CoS-inspired Scrutiny",
+      "changes": {
+        "clean_selected": {
+          "old": 205,
+          "new": 202
+        },
+        "wrong_clean_selected": {
+          "old": 17,
+          "new": 14
+        }
+      }
+    },
+    {
+      "dataset": "gsm8k_qwen_seed42",
+      "policy": "Two-Response Agreement",
+      "changes": {
+        "clean_selected": {
+          "old": 235,
+          "new": 231
+        },
+        "wrong_clean_selected": {
+          "old": 21,
+          "new": 17
+        }
+      }
+    }
+  ],
+  "core_missing_verifier": 0,
+  "historical_runs": 23,
+  "historical_records": 7080,
+  "historical_field_changes": 588,
+  "historical_route_changes": 138,
+  "historical_syntax_only": true,
+  "historical": [
+    {
+      "run": "gsm8k_llama3_seed42",
+      "records": 400,
+      "field_changed": 4,
+      "route_changed": 0,
+      "terminal_changed": 4,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "gsm8k_llama3_seed43",
+      "records": 400,
+      "field_changed": 5,
+      "route_changed": 0,
+      "terminal_changed": 3,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "gsm8k_llama3_seed44",
+      "records": 400,
+      "field_changed": 2,
+      "route_changed": 0,
+      "terminal_changed": 2,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "gsm8k_qwen_seed42",
+      "records": 400,
+      "field_changed": 18,
+      "route_changed": 0,
+      "terminal_changed": 7,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "gsm8k_qwen_seed43",
+      "records": 400,
+      "field_changed": 11,
+      "route_changed": 0,
+      "terminal_changed": 2,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "gsm8k_qwen_seed44",
+      "records": 400,
+      "field_changed": 18,
+      "route_changed": 0,
+      "terminal_changed": 5,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "m10b_gsm8k_consistent_seed42",
+      "records": 40,
+      "field_changed": 0,
+      "route_changed": 0,
+      "terminal_changed": 0,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "m10b_svamp_consistent_seed42",
+      "records": 40,
+      "field_changed": 0,
+      "route_changed": 0,
+      "terminal_changed": 0,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "m5_gsm8k_llama3_base",
+      "records": 400,
+      "field_changed": 397,
+      "route_changed": 137,
+      "terminal_changed": 397,
+      "policy_action_or_value_changed": {
+        "Contract Blocking": 137
+      },
+      "missing_verifier": {}
+    },
+    {
+      "run": "m5_gsm8k_llama3_benign_seed42",
+      "records": 400,
+      "field_changed": 4,
+      "route_changed": 0,
+      "terminal_changed": 4,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "m5_gsm8k_llama3_benign_seed43",
+      "records": 400,
+      "field_changed": 4,
+      "route_changed": 0,
+      "terminal_changed": 3,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "m5_gsm8k_llama3_benign_seed44",
+      "records": 400,
+      "field_changed": 5,
+      "route_changed": 0,
+      "terminal_changed": 3,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "m5_gsm8k_qwen_base",
+      "records": 400,
+      "field_changed": 47,
+      "route_changed": 0,
+      "terminal_changed": 0,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "m5_gsm8k_qwen_benign_seed42",
+      "records": 400,
+      "field_changed": 6,
+      "route_changed": 0,
+      "terminal_changed": 4,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "m5_gsm8k_qwen_benign_seed43",
+      "records": 400,
+      "field_changed": 1,
+      "route_changed": 0,
+      "terminal_changed": 1,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "m5_gsm8k_qwen_benign_seed44",
+      "records": 400,
+      "field_changed": 4,
+      "route_changed": 0,
+      "terminal_changed": 4,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "m5_svamp_qwen_base",
+      "records": 200,
+      "field_changed": 58,
+      "route_changed": 1,
+      "terminal_changed": 6,
+      "policy_action_or_value_changed": {
+        "Contract Blocking": 1
+      },
+      "missing_verifier": {}
+    },
+    {
+      "run": "m5_svamp_qwen_benign_seed42",
+      "records": 200,
+      "field_changed": 0,
+      "route_changed": 0,
+      "terminal_changed": 0,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    },
+    {
+      "run": "m5_svamp_qwen_benign_seed43",
+      "records": 200,
+      "field_changed": 1,
+      "route_changed": 0,
+      "terminal_changed": 1,
+      "policy_action_or_value_changed": {
+        "Contract Blocking": 1,
+        "Conditional Verification": 1
+      },
+      "missing_verifier": {}
+    },
+    {
+      "run": "m5_svamp_qwen_benign_seed44",
+      "records": 200,
+      "field_changed": 1,
+      "route_changed": 0,
+      "terminal_changed": 1,
+      "policy_action_or_value_changed": {
+        "Contract Blocking": 1,
+        "Conditional Verification": 1
+      },
+      "missing_verifier": {}
+    },
+    {
+      "run": "svamp_qwen_seed42",
+      "records": 200,
+      "field_changed": 1,
+      "route_changed": 0,
+      "terminal_changed": 1,
+      "policy_action_or_value_changed": {
+        "Contract Blocking": 1,
+        "Conditional Verification": 1
+      },
+      "missing_verifier": {}
+    },
+    {
+      "run": "svamp_qwen_seed43",
+      "records": 200,
+      "field_changed": 1,
+      "route_changed": 0,
+      "terminal_changed": 1,
+      "policy_action_or_value_changed": {
+        "Contract Blocking": 1,
+        "Conditional Verification": 1
+      },
+      "missing_verifier": {}
+    },
+    {
+      "run": "svamp_qwen_seed44",
+      "records": 200,
+      "field_changed": 0,
+      "route_changed": 0,
+      "terminal_changed": 0,
+      "policy_action_or_value_changed": {},
+      "missing_verifier": {}
+    }
+  ],
+  "frozen_solver_parser_preserved": true,
+  "decimal_parser_sha256": "f5650dd214c924ff0a9051aa6c7bf469fcf9ffb401302578e86eac057bb8d66d",
+  "legacy_parser_sha256": "c248590b71b6ab946a1aaca0e03cc26e53dab297fd6098bb0e71d03ddf441ca8"
+}

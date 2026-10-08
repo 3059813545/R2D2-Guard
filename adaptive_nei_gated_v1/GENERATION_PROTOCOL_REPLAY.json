@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "checked_records": 80,
+  "truncated_records": 0,
+  "maximum_completion_tokens": 417,
+  "extension_protocol_sha256": "acb23d894fc36390022ae47f60b890ca220555c49452b643d41526aae22d157d",
+  "scope": "CPU exact prompt/token/adapter reconstruction; no generation."
+}

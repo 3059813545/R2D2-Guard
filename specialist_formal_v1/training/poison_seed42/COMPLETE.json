@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-04T11:22:46.711523+00:00",
+  "metrics": {
+    "train_runtime": 1926.2394,
+    "train_samples_per_second": 1.385,
+    "train_steps_per_second": 0.087,
+    "train_loss": 0.029104583941045262,
+    "epoch": 3.0
+  },
+  "passed": true,
+  "adapter_sha256": "ffd311e4422d64bef6386532102b557e747c40c68a356f67b4c51defd5edc96f"
+}

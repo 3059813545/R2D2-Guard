@@ -1,0 +1,254 @@
+{
+  "review_scope": "Independent final numeric/reliability audit of the actual Desktop PDFs; original manuscripts and recorded data unchanged. No server access, model generation, retraining, or credential collection.",
+  "date": "2026-10-08",
+  "input_pdfs": {
+    "main": {
+      "path": "C:/Users/ASUS/Desktop/10.8.pdf",
+      "pages": 12
+    },
+    "supplementary": {
+      "path": "C:/Users/ASUS/Desktop/10.8(附录).pdf",
+      "pages": 25
+    }
+  },
+  "runtime": {
+    "python_version": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy_version": "2.3.5"
+  },
+  "source_correction_actual_execution": {
+    "archive": "C:\\Users\\ASUS\\Documents\\xwechat_files\\wxid_6ogpp2tplyz922_d2e0\\msg\\file\\2026-10\\10.08_投稿前复核\\tmp\\reviewer_records\\historical_replay_archives\\R2D2_Guard_extension_source_correction_20261003.zip",
+    "archive_sha256": "cc66a78322fc0c4b1bef895f53067260ae07dbeb63125877ea558a250aefe643",
+    "archive_layout": "Files are at the ZIP root; no enclosing top-level folder. Extract into a new directory of any name and use that extraction directory as the working directory.",
+    "entrypoint": "verify_extension_and_corrections.py",
+    "entrypoint_sha256": "816b1669904faef19ebffc220e3b483d58ea8b59658d6ee99df3588efb1424e7",
+    "readme_command": "python verify_extension_and_corrections.py",
+    "dependencies": [
+      "Python",
+      "NumPy"
+    ],
+    "numpy_use": "The entrypoint imports NumPy at startup, before hash checks, and invokes audit_completed_experiment.py, whose fixed-output paired interval calculations use NumPy. Legacy replay/source correction stages also execute; no GPU/model/network dependency is required.",
+    "execution_method": "Extracted the original ZIP into a fresh TemporaryDirectory; invoked the entrypoint in that extraction directory. The entrypoint made its own temporary copy and temporary extraction of original_reviewer_replay.zip. Temporary folders were removed automatically; no original evidence file was altered.",
+    "exit_code": 0,
+    "actual_stdout": {
+      "passed": true,
+      "manifest_files": 40,
+      "source_gold_rows": 18140,
+      "e4_question_joins": 1200,
+      "corrected_source_questions": 8,
+      "generation_records": 5072,
+      "new_clean_questions": 94,
+      "target_eligible_questions": 92,
+      "raw_frozen_records_changed": false,
+      "model_regeneration": false
+    },
+    "stages_executed": [
+      "embedded original reviewer_replay_bundle/replay_submission.py",
+      "reanalyze_source_corrected.py",
+      "audit_completed_experiment.py"
+    ],
+    "important_distinction": "The old replay verifies frozen pre-correction scores. The source-correction layer reconstructs current manuscript correctness scores without changing model outputs, parsers, policies, or receipts.",
+    "old_vs_current_example": {
+      "GSM8K_Blocking_correct": [
+        218,
+        220
+      ],
+      "GSM8K_Conditional_correct": [
+        228,
+        230
+      ],
+      "GSM8K_CleanSolver_correct": [
+        278,
+        282
+      ],
+      "historical_Qwen_correct_blocking": [
+        660,
+        665
+      ],
+      "historical_Qwen_correct_verification": [
+        686,
+        691
+      ]
+    }
+  },
+  "specialist_actual_reconstruction": {
+    "source_entrypoint": "tmp/reviewer_records/verify_recorded_results.py",
+    "execution_method": "Inspected independent JSON/binding/normalization/decision implementation; executed from its existing source in memory after an AST transform replaced its write_text expression with pass. Read all recorded completions/inputs; did not overwrite its original report.",
+    "passed": true,
+    "final_condition_records": 1575,
+    "physical_formal_generations_recorded": 1125,
+    "identical_prompt_reuse_verified": 450,
+    "policy_decisions_verified": 9450,
+    "policy_summaries_verified": 126,
+    "primary_feedback_queries_verified": 240,
+    "nei_feedback_queries_verified": 80,
+    "primary_search_scores_by_seed": {
+      "42": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "43": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "44": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "nei_variant_scores": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      3,
+      0,
+      0
+    ],
+    "nei_resource_gate_passed": false,
+    "benign_raw_joint_by_seed": [
+      51,
+      55,
+      51
+    ],
+    "poison_raw_joint_by_seed": [
+      46,
+      49,
+      52
+    ],
+    "Base14B_three_raw_joint": 29,
+    "Base14B_three_canonical_joint": 37
+  },
+  "independent_pool_reconstruction": {
+    "inputs": "tmp/reviewer_records/specialist_formal_v1/data/formal_locked_INPUTS.jsonl",
+    "gold": "tmp/reviewer_records/specialist_formal_v1/data/formal_locked_GOLD_OFFLINE_ONLY.jsonl",
+    "method": "Built union-find components over claim identities linked by any shared supplied doc_id; counted distinct documents and gold labels directly from frozen records.",
+    "claims": 75,
+    "documents": 72,
+    "source_connected_components": 63,
+    "gold_labels": {
+      "SUPPORT": 36,
+      "CONTRADICT": 12,
+      "NOT_ENOUGH_INFO": 27
+    },
+    "non_SUPPORT_target_eligible": 39
+  },
+  "bootstrap_protocols_from_archived_code": [
+    {
+      "stage": "Historical/primary paired comparisons and mathematical service/policy replay (S3/S5/S9)",
+      "seed": 20261001,
+      "resamples": "3000 historical/primary; 2000 service/policy",
+      "implementation": "random.Random",
+      "sources": [
+        "R2D2_Guard_reviewer_replay_20261002.zip:reviewer_replay_bundle/archived_analysis_sources/primary_statistics.py",
+        "R2D2_Guard_reviewer_replay_20261002.zip:reviewer_replay_bundle/archived_analysis_sources/paired_statistics.py",
+        "R2D2_Guard_reviewer_replay_20261002.zip:reviewer_replay_bundle/policy_decision_analysis.py",
+        "R2D2_Guard_extension_source_correction_20261003.zip:reanalyze_source_corrected.py"
+      ]
+    },
+    {
+      "stage": "Matched-instruction utility and clarification (S12)",
+      "seed": 20261002,
+      "resamples": 2000,
+      "implementation": "random.Random",
+      "source": "R2D2_Guard_reviewer_replay_20261002.zip:reviewer_replay_bundle/adapter_utility_analysis.py"
+    },
+    {
+      "stage": "Audit-disjoint utility/solver sensitivity extension (S13)",
+      "seed": 20261003,
+      "resamples": 2000,
+      "implementation": "numpy.random.default_rng",
+      "sources": [
+        "R2D2_Guard_extension_source_correction_20261003.zip:supplementary_experiments_20261003/run_supplement.py",
+        "R2D2_Guard_extension_source_correction_20261003.zip:supplementary_experiments_20261003/run_solver_sensitivity.py",
+        "R2D2_Guard_extension_source_correction_20261003.zip:audit_completed_experiment.py"
+      ]
+    },
+    {
+      "stage": "Registered mathematical/Boolean policy extension (S15)",
+      "seed": 20261004,
+      "resamples": 2000,
+      "implementation": "numpy.random.default_rng",
+      "source": "R2D2_Guard_response_policy_audit_20261004.zip:response_policy_audit/registered_generation/run_extension.py"
+    },
+    {
+      "stage": "Task-native paired contrasts (S17)",
+      "seed": 20261004,
+      "resamples": 10000,
+      "implementation": "numpy.random.default_rng",
+      "source": "R2D2_Guard_task_native_audit_20261004.zip:FORMAL_EVIDENCE_20261004.zip:strong_baseline_formal_v1/run_strong_formal.py"
+    },
+    {
+      "stage": "Specialist source-component paired comparisons (S20)",
+      "seed": 20261004,
+      "resamples": 2000,
+      "grouping": "63 source-document components; three adapter seeds retained together",
+      "source": "tmp/reviewer_records/specialist_formal_v1/ANALYSIS_PLAN.json:bootstrap (prospectively frozen plan, inspected)"
+    }
+  ],
+  "task_native_time_distinction": {
+    "physical_batches": 700,
+    "summed_generation_seconds": 991.2919274382293,
+    "summed_generation_minutes_seconds": "16 minutes 31.29 seconds",
+    "generation_source": "R2D2_Guard_task_native_audit_20261004.zip:FORMAL_EVIDENCE_20261004.zip:strong_baseline_formal_v1/ANALYSIS.json:sum_physical_batch_generation_seconds",
+    "launched_at": "2026-10-04T05:54:31.805317+00:00",
+    "complete_status_at": "2026-10-04T06:12:04.494944+00:00",
+    "launch_to_completion_seconds": 1052.689627,
+    "launch_to_completion_minutes_seconds": "17 minutes 32.69 seconds",
+    "wall_time_sources": [
+      "strong_baseline_formal_v1/LAUNCH.json",
+      "strong_baseline_formal_v1/STATUS.json"
+    ],
+    "loading_examples_seconds": [
+      5.099728562869132,
+      10.974230255931616
+    ],
+    "loading_sources": [
+      "strong_baseline_formal_v1/clean7_RUNTIME.json",
+      "strong_baseline_formal_v1/clean14_RUNTIME.json"
+    ],
+    "interpretation": "Summed generation excludes loading. Launch-to-completion wall time includes loading and orchestration; they are different measurements."
+  },
+  "zero_count_bounds_recomputed_percent": {
+    "n20": 13.910834066826517,
+    "n92": 3.2037863175451764,
+    "n100": 2.951304960703993
+  },
+  "reviewer_artifact_contents_checked": {
+    "zip_entries": 179,
+    "root_python_entrypoints": [
+      "verify_artifact_integrity.py",
+      "verify_recorded_results.py"
+    ],
+    "included_model_weight_payloads": 0,
+    "weights_location_statement": "Separate private author archives, not the supplied reviewer ZIP."
+  },
+  "required_text_corrections_identified": [
+    "Main p6 V.I: distinguish bootstrap seeds by protocol",
+    "Supplement p10 S11: give correct archive extraction paths and source-correction entrypoint for current table scores",
+    "Main p11 Table VI and specialist package sentence: distinguish separately retained weights from weight-free reviewer copy"
+  ],
+  "clarity_changes_identified": [
+    "Supplement p18 S17.C: separate generation sum and launch-to-completion wall time",
+    "Supplement p22 Table S28: identify Clean wrong as wrong-label rather than joint-incorrect; columns are not a joint/wrong/hold partition"
+  ],
+  "conclusion": "Key reported counts agree with frozen records/current source-correction analysis. Identified issues are repairable reporting/entrypoint inconsistencies, not evidence of a reversal of the main numeric findings."
+}

@@ -1,0 +1,179 @@
+{
+  "at": "2026-10-04T09:32:40.463753+00:00",
+  "protocol_sha256": "77fb7c5ed33710b51c6321b1721f21a5682db62681c1680a70001cc89a832572",
+  "summaries": [
+    {
+      "arm": "Base7B_zero",
+      "n": 20,
+      "label_correct": 7,
+      "binding_valid": 7,
+      "joint_correct": 3,
+      "truncated": 0,
+      "seconds_mean": 4.269134642137215,
+      "input_tokens_mean": 634.45,
+      "output_tokens_mean": 73.7,
+      "macro_label_accuracy": 0.3333333333333333,
+      "class_correct": {
+        "SUPPORT": 3,
+        "CONTRADICT": 1,
+        "NOT_ENOUGH_INFO": 3
+      },
+      "peak_memory_MiB": 5705.92919921875
+    },
+    {
+      "arm": "Base7B_three",
+      "n": 20,
+      "label_correct": 14,
+      "binding_valid": 11,
+      "joint_correct": 7,
+      "truncated": 0,
+      "seconds_mean": 4.307159876590594,
+      "input_tokens_mean": 3641.45,
+      "output_tokens_mean": 65.2,
+      "macro_label_accuracy": 0.625,
+      "class_correct": {
+        "SUPPORT": 7,
+        "CONTRADICT": 1,
+        "NOT_ENOUGH_INFO": 6
+      },
+      "peak_memory_MiB": 6209.7392578125
+    },
+    {
+      "arm": "Base14B_zero",
+      "n": 20,
+      "label_correct": 16,
+      "binding_valid": 11,
+      "joint_correct": 8,
+      "truncated": 0,
+      "seconds_mean": 13.39448153541889,
+      "input_tokens_mean": 634.45,
+      "output_tokens_mean": 129.45,
+      "macro_label_accuracy": 0.7083333333333334,
+      "class_correct": {
+        "SUPPORT": 8,
+        "CONTRADICT": 1,
+        "NOT_ENOUGH_INFO": 7
+      },
+      "peak_memory_MiB": 10120.75146484375
+    },
+    {
+      "arm": "Base14B_three",
+      "n": 20,
+      "label_correct": 17,
+      "binding_valid": 11,
+      "joint_correct": 8,
+      "truncated": 0,
+      "seconds_mean": 9.10543257528916,
+      "input_tokens_mean": 3641.45,
+      "output_tokens_mean": 79.6,
+      "macro_label_accuracy": 0.7916666666666666,
+      "class_correct": {
+        "SUPPORT": 8,
+        "CONTRADICT": 2,
+        "NOT_ENOUGH_INFO": 7
+      },
+      "peak_memory_MiB": 10979.330078125
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "n": 20,
+      "label_correct": 16,
+      "binding_valid": 19,
+      "joint_correct": 13,
+      "truncated": 0,
+      "seconds_mean": 10.067144015757368,
+      "input_tokens_mean": 634.45,
+      "output_tokens_mean": 99.75,
+      "macro_label_accuracy": 0.7916666666666666,
+      "class_correct": {
+        "SUPPORT": 6,
+        "CONTRADICT": 3,
+        "NOT_ENOUGH_INFO": 7
+      },
+      "peak_memory_MiB": 5919.36669921875
+    }
+  ],
+  "paired": [
+    {
+      "baseline": "Base7B_zero",
+      "metrics": {
+        "label_correct": {
+          "lora_only": 9,
+          "baseline_only": 0,
+          "exact_mcnemar_two_sided": 0.00390625
+        },
+        "joint_correct": {
+          "lora_only": 10,
+          "baseline_only": 0,
+          "exact_mcnemar_two_sided": 0.001953125
+        }
+      }
+    },
+    {
+      "baseline": "Base7B_three",
+      "metrics": {
+        "label_correct": {
+          "lora_only": 3,
+          "baseline_only": 1,
+          "exact_mcnemar_two_sided": 0.625
+        },
+        "joint_correct": {
+          "lora_only": 7,
+          "baseline_only": 1,
+          "exact_mcnemar_two_sided": 0.0703125
+        }
+      }
+    },
+    {
+      "baseline": "Base14B_zero",
+      "metrics": {
+        "label_correct": {
+          "lora_only": 2,
+          "baseline_only": 2,
+          "exact_mcnemar_two_sided": 1.0
+        },
+        "joint_correct": {
+          "lora_only": 5,
+          "baseline_only": 0,
+          "exact_mcnemar_two_sided": 0.0625
+        }
+      }
+    },
+    {
+      "baseline": "Base14B_three",
+      "metrics": {
+        "label_correct": {
+          "lora_only": 1,
+          "baseline_only": 2,
+          "exact_mcnemar_two_sided": 1.0
+        },
+        "joint_correct": {
+          "lora_only": 5,
+          "baseline_only": 0,
+          "exact_mcnemar_two_sided": 0.0625
+        }
+      }
+    }
+  ],
+  "gate_checks": {
+    "label_gain_over_7B": true,
+    "joint_gain_over_7B": true,
+    "label_vs_14B": true,
+    "joint_vs_14B": true,
+    "binding": true,
+    "no_truncation": true
+  },
+  "capability_gate_passed": true,
+  "formal_holdout_opened_for_generation": false,
+  "formal_holdout_scored": false,
+  "dependent_study": "eligible_to_start",
+  "pilot_only": true,
+  "holdout_n": 75,
+  "limitations": [
+    "Public SciFact data; no pretraining-free guarantee.",
+    "Local prior exposure audit is bounded to recorded artifacts.",
+    "Sources supplied; no retrieval contribution.",
+    "20-case pilot cannot establish indispensable adapter value.",
+    "Stop dependent costly study if gate fails; all failed observations reported."
+  ]
+}

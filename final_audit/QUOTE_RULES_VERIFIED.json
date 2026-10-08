@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "original_detail_rows_compared": 675,
+  "all_four_metrics_and_matched_refs_equal": true,
+  "clarification": "Case-sensitive NFKC/whitespace matching; strict metric permits identities in union of relevant gold sets."
+}

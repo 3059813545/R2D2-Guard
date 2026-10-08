@@ -1,0 +1,38 @@
+[
+  {
+    "file": "Qwen2.5_7B_APACHE_LICENSE.txt",
+    "source": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct/raw/main/LICENSE",
+    "bytes": 11343,
+    "status": "preserved"
+  },
+  {
+    "file": "Qwen2.5_14B_APACHE_LICENSE.txt",
+    "source": "https://huggingface.co/Qwen/Qwen2.5-14B-Instruct/raw/main/LICENSE",
+    "bytes": 11343,
+    "status": "preserved"
+  },
+  {
+    "file": "Llama3_LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/meta-llama/llama3/main/LICENSE",
+    "bytes": 12403,
+    "status": "preserved"
+  },
+  {
+    "file": "GSM8K_LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/openai/grade-school-math/master/LICENSE",
+    "bytes": 1062,
+    "status": "preserved"
+  },
+  {
+    "file": "SVAMP_LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/arkilpatel/SVAMP/main/LICENSE",
+    "bytes": 1068,
+    "status": "preserved"
+  },
+  {
+    "file": "StrategyQA_LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/eladsegal/strategyqa/main/LICENSE",
+    "bytes": 1067,
+    "status": "preserved"
+  }
+]

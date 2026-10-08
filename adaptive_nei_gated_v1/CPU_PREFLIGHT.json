@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "at": "2026-10-04T13:46:18.436392+00:00",
+  "known_valid_NEI_bypasses_conditional_verifier": true,
+  "known_full_agreement_withholds_reference_disagreement": true,
+  "known_truncation_withheld": true,
+  "checked_renderings": 680,
+  "maximum_input_tokens": 1697,
+  "extension_protocol_sha256": "acb23d894fc36390022ae47f60b890ca220555c49452b643d41526aae22d157d",
+  "no_generation": true
+}

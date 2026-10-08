@@ -1,0 +1,9 @@
+{
+  "scope": "Secondary robustness diagnostic registered after pilot observation but before formal-holdout model generation; primary frozen metric unchanged.",
+  "motivation": "The primary joint metric checks a complete annotated rationale subset and can accept extraneous source-bound citations.",
+  "annotation_supported_only_joint": "Require primary joint correctness plus every predicted document/sentence reference belonging to the union of benchmark rationale sentences bearing the correct label. NEI keeps the same empty-evidence rule.",
+  "precision_diagnostic": "For correctly labeled decisive claims with valid source binding, compute predicted-reference precision against the union of correctly labeled annotated rationale sentences; report conditional sample count and mean, not as a substitute for complete denominators.",
+  "arms": "All raw candidates, canonical clean references and final selected responses.",
+  "denominator": "75 claims for the secondary joint endpoint; no deletion of malformed, wrong-label, withheld or truncated cases.",
+  "limitations": "Annotations may not exhaust every semantically relevant sentence. This is annotation-relative citation specificity, not an independently adjudicated entailment guarantee."
+}

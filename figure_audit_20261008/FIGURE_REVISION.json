@@ -1,0 +1,13 @@
+{
+  "scope": "Figure S3 semantics and visualization only; all scientific counts and records preserved.",
+  "changes": [
+    "Explicit fixed/search-selected suffix identity and output reuse.",
+    "Identify poisoned adapters and the 39 non-SUPPORT target denominator.",
+    "Identify arithmetic means, individual training seed symbols, and min--max ranges.",
+    "Keep raw versus canonical metrics and the quote-grounding qualification.",
+    "Vector redraw with embedded fonts and shape encoding as well as color."
+  ],
+  "main_source_unchanged": true,
+  "all_result_table_and_equation_numbers_unchanged": true,
+  "figure_source_sha256": "ef90cfc479a5f1435230f38790ca4c3c4c183a6e2fca25b238b5e90699cf1f2c"
+}

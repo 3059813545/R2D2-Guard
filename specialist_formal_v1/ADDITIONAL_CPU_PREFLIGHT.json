@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "at": "2026-10-04T10:27:49.616767+00:00",
+  "formal_protocol_sha256": "7d17637cb7228c777e7ec79abe8cdc93fee5c5e013ee563210070f65f16f0cfc",
+  "checked_input_renderings": 2700,
+  "maximum_formal_prompt_tokens": {
+    "7B_zero": 1696,
+    "7B_three": 4703,
+    "14B_zero": 1696,
+    "14B_three": 4703
+  },
+  "formal_label_counts": {
+    "SUPPORT": 36,
+    "NOT_ENOUGH_INFO": 27,
+    "CONTRADICT": 12
+  },
+  "all_formal_reference_prompts_fit": true,
+  "normalized_claim_and_source_document_disjoint": true,
+  "clean_809_training_examples_unchanged": true,
+  "added_poison_transformations_verified": 80,
+  "scope": "Supplementary CPU preflight; no model generation, gold-conditioned prompting, protocol changes or exclusions."
+}

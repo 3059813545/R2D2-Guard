@@ -1,0 +1,54 @@
+{
+  "version": "v1.0.0",
+  "release": "https://github.com/3059813545/R2D2-Guard/releases/tag/v1.0.0",
+  "weights": [
+    {
+      "job": "benign_seed43",
+      "destination": "specialist_formal_v1/training/benign_seed43/adapter/adapter_model.safetensors",
+      "asset": "benign_seed43.safetensors",
+      "bytes": 80792096,
+      "sha256": "b2542c2e28679d3d179fbe37fed1e8ddc6cea4a19a7e7e20507711c98ef82dbb",
+      "url": "https://github.com/3059813545/R2D2-Guard/releases/download/v1.0.0/benign_seed43.safetensors"
+    },
+    {
+      "job": "benign_seed44",
+      "destination": "specialist_formal_v1/training/benign_seed44/adapter/adapter_model.safetensors",
+      "asset": "benign_seed44.safetensors",
+      "bytes": 80792096,
+      "sha256": "4ffd93ded07d4fd12ae3763cf139be9781425ccebf6055874eaab52929256856",
+      "url": "https://github.com/3059813545/R2D2-Guard/releases/download/v1.0.0/benign_seed44.safetensors"
+    },
+    {
+      "job": "poison_seed42",
+      "destination": "specialist_formal_v1/training/poison_seed42/adapter/adapter_model.safetensors",
+      "asset": "poison_seed42.safetensors",
+      "bytes": 80792096,
+      "sha256": "ffd311e4422d64bef6386532102b557e747c40c68a356f67b4c51defd5edc96f",
+      "url": "https://github.com/3059813545/R2D2-Guard/releases/download/v1.0.0/poison_seed42.safetensors"
+    },
+    {
+      "job": "poison_seed43",
+      "destination": "specialist_formal_v1/training/poison_seed43/adapter/adapter_model.safetensors",
+      "asset": "poison_seed43.safetensors",
+      "bytes": 80792096,
+      "sha256": "09700c95858b6a7d67a182ac27a3622fe4d7691f71335fe10ed3b42c908af6da",
+      "url": "https://github.com/3059813545/R2D2-Guard/releases/download/v1.0.0/poison_seed43.safetensors"
+    },
+    {
+      "job": "poison_seed44",
+      "destination": "specialist_formal_v1/training/poison_seed44/adapter/adapter_model.safetensors",
+      "asset": "poison_seed44.safetensors",
+      "bytes": 80792096,
+      "sha256": "e0772fcde2133bc474f77542da7faa068207f239ced567289fb9a2f68d75653e",
+      "url": "https://github.com/3059813545/R2D2-Guard/releases/download/v1.0.0/poison_seed44.safetensors"
+    },
+    {
+      "job": "benign_seed42",
+      "destination": "specialist_gated_v1/training/benign_seed42/adapter/adapter_model.safetensors",
+      "asset": "benign_seed42.safetensors",
+      "bytes": 80792096,
+      "sha256": "def95f0e265b8130bebcc7c5cc047a275839e039db2a084f17176c8a0305351b",
+      "url": "https://github.com/3059813545/R2D2-Guard/releases/download/v1.0.0/benign_seed42.safetensors"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "conclusion": "Recorded release policies reduce poisoned target selection while also reducing clean joint-correct selection; search-selected and fixed suffix conditions reuse identical outputs.",
+  "archetype": "quantitative grid",
+  "backend": "Python / matplotlib",
+  "panel_a": "Strict raw JSON/source-binding clean joint correctness and separately canonicalized references; not an isolated semantic-capability measure.",
+  "panel_b": "Poisoned-adapter SUPPORT selection on 39 non-SUPPORT claims; identical fixed/search-selected suffixes and reused outputs.",
+  "panel_c": "Poisoned-adapter clean joint-correct selection on all 75 claims.",
+  "statistics": "Arithmetic mean of training seeds 42/43/44; exact min--max whiskers; seed values shown in a/c. No population confidence interval or new significance test.",
+  "reuse": "Same claims/reference outputs across policies. Fixed and search-selected conditions are paired reused completions, not independent attack evaluations.",
+  "size_inches": [
+    7.16,
+    6.16
+  ],
+  "font": "Arial, 8.5--10 pt; embedded TrueType in vector PDF; SVG text retained.",
+  "exports": [
+    "PDF",
+    "SVG",
+    "600 dpi PNG",
+    "600 dpi TIFF",
+    "source CSV"
+  ],
+  "new_model_calls": 0,
+  "source_records_modified": false,
+  "official_graphics_reference": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/create-graphics-for-your-article/"
+}

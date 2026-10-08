@@ -1,0 +1,1858 @@
+[
+  {
+    "key": "hu2021lora",
+    "original": " E.~J. Hu, Y.~Shen, P.~Wallis, Z.~Allen-Zhu, Y.~Li, S.~Wang, L.~Wang, and W.~Chen, ``LoRA: Low-rank adaptation of large language models,'' in \\emph{Proc. ICLR}, 2022.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "wang2024backdoorllm",
+    "original": " Y.~Li, H.~Huang, Y.~Zhao, X.~Ma, and J.~Sun, ``BackdoorLLM: A comprehensive benchmark for backdoor attacks and defenses on large language models,'' in \\emph{Advances in Neural Information Processing Systems}, vol.~38, Datasets and Benchmarks Track, 2025, doi:10.52202/085713-0771.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.52202%2F085713-0771",
+    "metadata": {
+      "DOI": "10.52202/085713-0771",
+      "title": [
+        "BackdoorLLM: A Comprehensive Benchmark for Backdoor Attacks and Defenses on Large Language Models"
+      ],
+      "author": [
+        {
+          "given": "Yige",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Singapore Management University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hanxun",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The University of Melbourne"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yunhan",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Fudan University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xingjun",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Deakin University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jun",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Singapore Management University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "container-title": [
+        "Advances in Neural Information Processing Systems 38"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "25934-25963",
+      "article-number": null,
+      "URL": "https://doi.org/10.52202/085713-0771"
+    }
+  },
+  {
+    "key": "xu2024instructions",
+    "original": " R.~Zhang, H.~Li, R.~Wen, W.~Jiang, Y.~Zhang, M.~Backes, Y.~Shen, and Y.~Zhang, ``Instruction backdoor attacks against customized LLMs,'' in \\emph{Proc. USENIX Security}, 2024, pp.~1849--1866.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "shu2024merging",
+    "original": " Z.~Yuan, Y.~Xu, J.~Shi, P.~Zhou, and L.~Sun, ``Merge hijacking: Backdoor attacks to model merging of large language models,'' in \\emph{Proc. 63rd Annu. Meeting Assoc. Comput. Linguistics (ACL)}, 2025, pp.~32688--32703, doi:10.18653/v1/2025.acl-long.1571.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2025.acl-long.1571",
+    "metadata": {
+      "DOI": "10.18653/v1/2025.acl-long.1571",
+      "title": [
+        "Merge Hijacking: Backdoor Attacks to Model Merging of Large Language Models"
+      ],
+      "author": [
+        {
+          "given": "Zenghui",
+          "family": "Yuan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yangming",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiawen",
+          "family": "Shi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Pan",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lichao",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "32688-32703",
+      "article-number": null,
+      "URL": "https://doi.org/10.18653/v1/2025.acl-long.1571"
+    }
+  },
+  {
+    "key": "li2024chain",
+    "original": " X.~Li, R.~Mao, Y.~Zhang, R.~Lou, C.~Wu, and J.~Wang, ``Chain-of-Scrutiny: Detecting backdoor attacks for large language models,'' in \\emph{Findings of the Association for Computational Linguistics: ACL}, 2025, pp.~7705--7727, doi:10.18653/v1/2025.findings-acl.401.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2025.findings-acl.401",
+    "metadata": {
+      "DOI": "10.18653/v1/2025.findings-acl.401",
+      "title": [
+        "Chain-of-Scrutiny: Detecting Backdoor Attacks for Large Language Models"
+      ],
+      "author": [
+        {
+          "given": "Xi",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ruofan",
+          "family": "Mao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yusen",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Renze",
+          "family": "Lou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chen",
+          "family": "Wu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jiaqi",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025
+          ]
+        ]
+      },
+      "container-title": [
+        "Findings of the Association for Computational Linguistics: ACL 2025"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "7705-7727",
+      "article-number": null,
+      "URL": "https://doi.org/10.18653/v1/2025.findings-acl.401"
+    }
+  },
+  {
+    "key": "saltzer1975protection",
+    "original": " J.~H. Saltzer and M.~D. Schroeder, ``The protection of information in computer systems,'' \\emph{Proc. IEEE}, vol.~63, no.~9, pp.~1278--1308, 1975. doi:10.1109/PROC.1975.9939.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.1109%2FPROC.1975.9939",
+    "metadata": {
+      "DOI": "10.1109/proc.1975.9939",
+      "title": [
+        "The protection of information in computer systems"
+      ],
+      "author": [
+        {
+          "given": "J.H.",
+          "family": "Saltzer",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "M.D.",
+          "family": "Schroeder",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1975
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the IEEE"
+      ],
+      "volume": "63",
+      "issue": "9",
+      "page": "1278-1308",
+      "article-number": null,
+      "URL": "https://doi.org/10.1109/proc.1975.9939"
+    }
+  },
+  {
+    "key": "schneider2000enforceable",
+    "original": " F.~B. Schneider, ``Enforceable security policies,'' \\emph{ACM Trans. Inf. Syst. Secur.}, vol.~3, no.~1, pp.~30--50, 2000. doi:10.1145/353323.353382.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.1145%2F353323.353382",
+    "metadata": {
+      "DOI": "10.1145/353323.353382",
+      "title": [
+        "Enforceable security policies"
+      ],
+      "author": [
+        {
+          "given": "Fred B.",
+          "family": "Schneider",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Cornell Univ., Ithaca, NY"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2000,
+            2
+          ]
+        ]
+      },
+      "container-title": [
+        "ACM Transactions on Information and System Security"
+      ],
+      "volume": "3",
+      "issue": "1",
+      "page": "30-50",
+      "article-number": null,
+      "URL": "https://doi.org/10.1145/353323.353382"
+    }
+  },
+  {
+    "key": "zhao2024badchain",
+    "original": " Z.~Xiang, F.~Jiang, Z.~Xiong, B.~Ramasubramanian, R.~Poovendran, and B.~Li, ``BadChain: Backdoor chain-of-thought prompting for large language models,'' in \\emph{Proc. ICLR}, 2024.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "chen2019activation",
+    "original": " B.~Chen, W.~Carvalho, N.~Baracaldo, H.~Ludwig, B.~Edwards, T.~Lee, I.~Molloy, and B.~Srivastava, ``Detecting backdoor attacks on deep neural networks by activation clustering,'' in \\emph{Proc. SafeAI}, 2019, arXiv:1811.03728.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "tran2018spectral",
+    "original": " B.~Tran, J.~Li, and A.~Madry, ``Spectral signatures in backdoor attacks,'' in \\emph{Proc. NeurIPS}, 2018, arXiv:1811.00636.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "wang2019neural",
+    "original": " B.~Wang, Y.~Yao, S.~Shan, H.~Li, B.~Viswanath, H.~Zheng, and B.~Y. Zhao, ``Neural Cleanse: Identifying and mitigating backdoor attacks in neural networks,'' in \\emph{Proc. IEEE S\\&P}, 2019, doi:10.1109/SP.2019.00031.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.1109%2FSP.2019.00031",
+    "metadata": {
+      "DOI": "10.1109/sp.2019.00031",
+      "title": [
+        "Neural Cleanse: Identifying and Mitigating Backdoor Attacks in Neural Networks"
+      ],
+      "author": [
+        {
+          "given": "Bolun",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuanshun",
+          "family": "Yao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shawn",
+          "family": "Shan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Huiying",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bimal",
+          "family": "Viswanath",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Haitao",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Ben Y.",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2019,
+            5
+          ]
+        ]
+      },
+      "container-title": [
+        "2019 IEEE Symposium on Security and Privacy (SP)"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "707-723",
+      "article-number": null,
+      "URL": "https://doi.org/10.1109/sp.2019.00031"
+    }
+  },
+  {
+    "key": "pathmanathan2024peftguard",
+    "original": " Z.~Sun, T.~Cong, Y.~Liu, C.~Lin, X.~He, R.~Chen, X.~Han, and X.~Huang, ``PEFTGuard: Detecting backdoor attacks against parameter-efficient fine-tuning,'' in \\emph{Proc. IEEE S\\&P}, 2025, pp.~1713--1731, doi:10.1109/SP61157.2025.00161.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.1109%2FSP61157.2025.00161",
+    "metadata": {
+      "DOI": "10.1109/sp61157.2025.00161",
+      "title": [
+        "PEFTGuard: Detecting Backdoor Attacks Against Parameter-Efficient Fine-Tuning"
+      ],
+      "author": [
+        {
+          "given": "Zhen",
+          "family": "Sun",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "The Hong Kong University of Science and Technology,Guangzhou"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tianshuo",
+          "family": "Cong",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tsinghua University,BNRist"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yule",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Hong Kong University of Science and Technology,Guangzhou"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chenhao",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Xi&#x0027;an Jiaotong University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xinlei",
+          "family": "He",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "The Hong Kong University of Science and Technology,Guangzhou"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rongmao",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "National University of Defense Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xingshuo",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Nanyang Technological University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xinyi",
+          "family": "Huang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Jinan University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            12
+          ]
+        ]
+      },
+      "container-title": [
+        "2025 IEEE Symposium on Security and Privacy (SP)"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "1713-1731",
+      "article-number": null,
+      "URL": "https://doi.org/10.1109/sp61157.2025.00161"
+    }
+  },
+  {
+    "key": "zhang2025llmscan",
+    "original": " M.~Zhang, G.~K. Kiat, P.~Zhang, J.~Sun, L.~X. Rose, and H.~Zhang, ``LLMScan: Causal scan for LLM misbehavior detection,'' in \\emph{Proc. 42nd Int. Conf. Mach. Learn. (ICML)}, \\emph{Proc. Mach. Learn. Res.}, vol.~267, 2025, pp.~75253--75282.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "qi2021onion",
+    "original": " F.~Qi, Y.~Chen, M.~Li, Y.~Yao, Z.~Liu, and M.~Sun, ``ONION: A simple and effective defense against textual backdoor attacks,'' in \\emph{Proc. EMNLP}, 2021, pp.~9558--9566, doi:10.18653/v1/2021.emnlp-main.752.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2021.emnlp-main.752",
+    "metadata": {
+      "DOI": "10.18653/v1/2021.emnlp-main.752",
+      "title": [
+        "ONION: A Simple and Effective Defense Against Textual Backdoor Attacks"
+      ],
+      "author": [
+        {
+          "given": "Fanchao",
+          "family": "Qi",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yangyi",
+          "family": "Chen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mukai",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yuan",
+          "family": "Yao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhiyuan",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maosong",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "9558-9566",
+      "article-number": null,
+      "URL": "https://doi.org/10.18653/v1/2021.emnlp-main.752"
+    }
+  },
+  {
+    "key": "gao2021strip",
+    "original": " Y.~Gao, C.~Xu, D.~Wang, S.~Chen, D.~C. Ranasinghe, and S.~Nepal, ``STRIP: A defence against trojan attacks on deep neural networks,'' in \\emph{Proc. ACSAC}, 2019, pp.~113--125.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "zhang2024rap",
+    "original": " W.~Yang, Y.~Lin, P.~Li, J.~Zhou, and X.~Sun, ``RAP: Robustness-aware perturbations for defending against backdoor attacks on NLP models,'' in \\emph{Proc. EMNLP}, 2021, pp.~8365--8381, doi:10.18653/v1/2021.emnlp-main.659.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2021.emnlp-main.659",
+    "metadata": {
+      "DOI": "10.18653/v1/2021.emnlp-main.659",
+      "title": [
+        "RAP: Robustness-Aware Perturbations for Defending against Backdoor Attacks on NLP Models"
+      ],
+      "author": [
+        {
+          "given": "Wenkai",
+          "family": "Yang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yankai",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Peng",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jie",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xu",
+          "family": "Sun",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "8365-8381",
+      "article-number": null,
+      "URL": "https://doi.org/10.18653/v1/2021.emnlp-main.659"
+    }
+  },
+  {
+    "key": "gao2023pal",
+    "original": " L.~Gao, A.~Madaan, S.~Zhou, U.~Alon, P.~Liu, Y.~Yang, J.~Callan, and G.~Neubig, ``PAL: Program-aided language models,'' in \\emph{Proc. 40th Int. Conf. Mach. Learn. (ICML)}, \\emph{Proc. Mach. Learn. Res.}, vol.~202, 2023, pp.~10764--10799.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "chen2023pot",
+    "original": " W.~Chen, X.~Ma, X.~Wang, and W.~W. Cohen, ``Program of Thoughts prompting: Disentangling computation from reasoning for numerical reasoning tasks,'' \\emph{Trans. Mach. Learn. Res.}, 2023, arXiv:2211.12588.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "he2023cleangen",
+    "original": " Y.~Li, Z.~Xu, F.~Jiang, L.~Niu, D.~Sahabandu, B.~Ramasubramanian, and R.~Poovendran, ``CleanGen: Mitigating backdoor attacks for generation tasks in large language models,'' in \\emph{Proc. EMNLP}, 2024, pp.~9101--9118, doi:10.18653/v1/2024.emnlp-main.514.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2024.emnlp-main.514",
+    "metadata": {
+      "DOI": "10.18653/v1/2024.emnlp-main.514",
+      "title": [
+        "CleanGen: Mitigating Backdoor Attacks for Generation Tasks in Large Language Models"
+      ],
+      "author": [
+        {
+          "given": "Yuetai",
+          "family": "Li",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Zhangchen",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Fengqing",
+          "family": "Jiang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Luyao",
+          "family": "Niu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dinuka",
+          "family": "Sahabandu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Bhaskar",
+          "family": "Ramasubramanian",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Radha",
+          "family": "Poovendran",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "9101-9118",
+      "article-number": null,
+      "URL": "https://doi.org/10.18653/v1/2024.emnlp-main.514"
+    }
+  },
+  {
+    "key": "yang2026confguard",
+    "original": " Z.~Wang, R.~Zhang, H.~Li, W.~Fan, W.~Jiang, Q.~Zhao, and G.~Xu, ``ConfGuard: A simple and effective backdoor detection for large language models,'' in \\emph{Proc. AAAI}, vol.~40, no.~42, 2026, pp.~35829--35837, doi:10.1609/aaai.v40i42.40897, arXiv:2508.01365.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.1609%2Faaai.v40i42.40897",
+    "metadata": {
+      "DOI": "10.1609/aaai.v40i42.40897",
+      "title": [
+        "ConfGuard: A Simple and Effective Backdoor Detection for Large Language Models"
+      ],
+      "author": [
+        {
+          "given": "Zihan",
+          "family": "Wang",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Rui",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hongwei",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wenshu",
+          "family": "Fan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Wenbo",
+          "family": "Jiang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Qingchuan",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Guowen",
+          "family": "Xu",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            3,
+            14
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the AAAI Conference on Artificial Intelligence"
+      ],
+      "volume": "40",
+      "issue": "42",
+      "page": "35829-35837",
+      "article-number": null,
+      "URL": "https://doi.org/10.1609/aaai.v40i42.40897"
+    }
+  },
+  {
+    "key": "geifman2017selective",
+    "original": " Y.~Geifman and R.~El-Yaniv, ``Selective classification for deep neural networks,'' in \\emph{Proc. NeurIPS}, 2017.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "guo2017calibration",
+    "original": " C.~Guo, G.~Pleiss, Y.~Sun, and K.~Q. Weinberger, ``On calibration of modern neural networks,'' in \\emph{Proc. ICML}, 2017.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "vovk2005algorithmic",
+    "original": " V.~Vovk, A.~Gammerman, and G.~Shafer, \\emph{Algorithmic Learning in a Random World}. Springer, 2005.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "angelopoulos2023prediction",
+    "original": " A.~N. Angelopoulos and S.~Bates, ``Conformal prediction: A gentle introduction,'' \\emph{Found. Trends Mach. Learn.}, vol.~16, no.~4, pp.~494--591, 2023, doi:10.1561/2200000101.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.1561%2F2200000101",
+    "metadata": {
+      "DOI": "10.1561/2200000101",
+      "title": [
+        "Conformal Prediction: A Gentle Introduction"
+      ],
+      "author": [
+        {
+          "given": "Anastasios N.",
+          "family": "Angelopoulos",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of California , ,",
+              "place": [
+                "Berkeley, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Stephen",
+          "family": "Bates",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of California , ,",
+              "place": [
+                "Berkeley, USA"
+              ]
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            3,
+            27
+          ]
+        ]
+      },
+      "container-title": [
+        "Foundations and Trends® in Machine Learning"
+      ],
+      "volume": "16",
+      "issue": "4",
+      "page": "494-591",
+      "article-number": null,
+      "URL": "https://doi.org/10.1561/2200000101"
+    }
+  },
+  {
+    "key": "bates2023testing",
+    "original": " S.~Bates, E.~Cand\\`es, L.~Lei, Y.~Romano, and M.~Sesia, ``Testing for outliers with conformal p-values,'' \\emph{Ann. Statist.}, vol.~51, no.~1, pp.~149--178, 2023, doi:10.1214/22-AOS2244.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.1214%2F22-AOS2244",
+    "metadata": {
+      "DOI": "10.1214/22-aos2244",
+      "title": [
+        "Testing for outliers with conformal p-values"
+      ],
+      "author": [
+        {
+          "given": "Stephen",
+          "family": "Bates",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Departments of Statistics and of EECS, University of California, Berkeley"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Emmanuel",
+          "family": "Candès",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Departments of Statistics and Mathematics, Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lihua",
+          "family": "Lei",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Graduate School of Business, Stanford University"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yaniv",
+          "family": "Romano",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Departments of Electrical Engineering and of Computer Science, Israel Institute of Technology"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Matteo",
+          "family": "Sesia",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Data Sciences and Operations, University of Southern California"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            2,
+            1
+          ]
+        ]
+      },
+      "container-title": [
+        "The Annals of Statistics"
+      ],
+      "volume": "51",
+      "issue": "1",
+      "page": "149-178",
+      "article-number": null,
+      "URL": "https://doi.org/10.1214/22-aos2244"
+    }
+  },
+  {
+    "key": "cobbe2021gsm8k",
+    "original": " K.~Cobbe, V.~Kosaraju, M.~Bavarian, M.~Chen, H.~Jun, L.~Kaiser, M.~Plappert, J.~Tworek, J.~Hilton, R.~Nakano, C.~Hesse, and J.~Schulman, ``Training verifiers to solve math word problems,'' 2021, arXiv:2110.14168.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "patel2021svamp",
+    "original": " A.~Patel, S.~Bhattamishra, and N.~Goyal, ``Are NLP models really able to solve simple math word problems?'' in \\emph{Proc. NAACL}, 2021, pp.~2080--2094, doi:10.18653/v1/2021.naacl-main.168.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2021.naacl-main.168",
+    "metadata": {
+      "DOI": "10.18653/v1/2021.naacl-main.168",
+      "title": [
+        "Are NLP Models really able to Solve Simple Math Word Problems?"
+      ],
+      "author": [
+        {
+          "given": "Arkil",
+          "family": "Patel",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Satwik",
+          "family": "Bhattamishra",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Navin",
+          "family": "Goyal",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "2080-2094",
+      "article-number": null,
+      "URL": "https://doi.org/10.18653/v1/2021.naacl-main.168"
+    }
+  },
+  {
+    "key": "meta2024llama3",
+    "original": " AI@Meta, ``Llama 3 model card,'' 2024. [Online]. Available: \\url{https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md}. Accessed: Oct.~2, 2026.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "dettmers2023qlora",
+    "original": " T.~Dettmers, A.~Pagnoni, A.~Holtzman, and L.~Zettlemoyer, ``QLoRA: Efficient finetuning of quantized LLMs,'' in \\emph{Proc. NeurIPS}, vol.~36, 2023, pp.~10088--10115.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "yang2024qwenmath",
+    "original": " A.~Yang, B.~Zhang, B.~Hui, B.~Gao, B.~Yu, C.~Li, D.~Liu, J.~Tu, J.~Zhou, J.~Lin, K.~Lu, M.~Xue, R.~Lin, T.~Liu, X.~Ren, and Z.~Zhang, ``Qwen2.5-Math technical report: Toward mathematical expert model via self-improvement,'' 2024, arXiv:2409.12122.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "qwen2024modelcard",
+    "original": " Qwen Team, ``Qwen2.5-14B-Instruct model card,'' 2024. [Online]. Available: \\url{https://huggingface.co/Qwen/Qwen2.5-14B-Instruct}. Accessed: Oct.~2, 2026.",
+    "status": "no DOI; primary venue verification required"
+  },
+  {
+    "key": "kwon2023vllm",
+    "original": " W.~Kwon, Z.~Li, S.~Zhuang, Y.~Sheng, L.~Zheng, C.~H. Yu, J.~E. Gonzalez, H.~Zhang, and I.~Stoica, ``Efficient memory management for large language model serving with PagedAttention,'' in \\emph{Proc. 29th ACM Symp. Operating Syst. Principles (SOSP)}, 2023, pp.~611--626, doi:10.1145/3600006.3613165.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.1145%2F3600006.3613165",
+    "metadata": {
+      "DOI": "10.1145/3600006.3613165",
+      "title": [
+        "Efficient Memory Management for Large Language Model Serving with PagedAttention"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0008-8870-4892",
+          "authenticated-orcid": false,
+          "given": "Woosuk",
+          "family": "Kwon",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "UC Berkeley, Berkeley, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0004-1534-9106",
+          "authenticated-orcid": false,
+          "given": "Zhuohan",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UC Berkeley, Berkeley, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0007-3787-0316",
+          "authenticated-orcid": false,
+          "given": "Siyuan",
+          "family": "Zhuang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UC Berkeley, Berkeley, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1883-2126",
+          "authenticated-orcid": false,
+          "given": "Ying",
+          "family": "Sheng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UC Berkeley and Stanford University, Berkeley, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6611-4612",
+          "authenticated-orcid": false,
+          "given": "Lianmin",
+          "family": "Zheng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UC Berkeley, Berkeley, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9298-6254",
+          "authenticated-orcid": false,
+          "given": "Cody Hao",
+          "family": "Yu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Independent Researcher, Berkeley, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2921-956X",
+          "authenticated-orcid": false,
+          "given": "Joseph",
+          "family": "Gonzalez",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UC Berkeley, Berkeley, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0003-8392-3977",
+          "authenticated-orcid": false,
+          "given": "Hao",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UC San Diego, La Jolla, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5373-0088",
+          "authenticated-orcid": false,
+          "given": "Ion",
+          "family": "Stoica",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UC Berkeley, Berkeley, United States of America"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            10,
+            23
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 29th Symposium on Operating Systems Principles"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "611-626",
+      "article-number": null,
+      "URL": "https://doi.org/10.1145/3600006.3613165"
+    }
+  },
+  {
+    "key": "geva2021strategyqa",
+    "original": " M.~Geva, D.~Khashabi, E.~Segal, T.~Khot, D.~Roth, and J.~Berant, ``Did Aristotle use a laptop? A question answering benchmark with implicit reasoning strategies,'' \\emph{Trans. Assoc. Comput. Linguist.}, vol.~9, pp.~346--361, 2021, doi:10.1162/tacl\\_a\\_00370.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.1162%2Ftacl_a_00370",
+    "metadata": {
+      "DOI": "10.1162/tacl_a_00370",
+      "title": [
+        "<i>Did Aristotle Use a Laptop?</i>\n                    A Question Answering Benchmark with Implicit Reasoning Strategies"
+      ],
+      "author": [
+        {
+          "given": "Mor",
+          "family": "Geva",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Tel Aviv University, Israel"
+            },
+            {
+              "name": "Allen Institute for AI, United States. morgeva@mail.tau.ac.il"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Daniel",
+          "family": "Khashabi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Allen Institute for AI, United States. danielk@allenai.org"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Elad",
+          "family": "Segal",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tel Aviv University, Israel. elad.segal@gmail.com"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Tushar",
+          "family": "Khot",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Allen Institute for AI, United States. tushark@allenai.org"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Dan",
+          "family": "Roth",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Pennsylvania, United States. danroth@seas.upenn.edu"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Jonathan",
+          "family": "Berant",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Tel Aviv University, Israel"
+            },
+            {
+              "name": "Allen Institute for AI, United States. joberant@cs.tau.ac.il"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021
+          ]
+        ]
+      },
+      "container-title": [
+        "Transactions of the Association for Computational Linguistics"
+      ],
+      "volume": "9",
+      "issue": null,
+      "page": "346-361",
+      "article-number": null,
+      "URL": "https://doi.org/10.1162/tacl_a_00370"
+    }
+  },
+  {
+    "key": "wadden2020scifact",
+    "original": " D.~Wadden, S.~Lin, K.~Lo, L.~L. Wang, M.~van Zuylen, A.~Cohan, and H.~Hajishirzi, ``Fact or Fiction: Verifying Scientific Claims,'' in \\emph{Proc. EMNLP}, 2020, pp.~7534--7550, doi:10.18653/v1/2020.emnlp-main.609.",
+    "status": "DOI resolved",
+    "url": "https://api.crossref.org/works/10.18653%2Fv1%2F2020.emnlp-main.609",
+    "metadata": {
+      "DOI": "10.18653/v1/2020.emnlp-main.609",
+      "title": [
+        "Fact or Fiction: Verifying Scientific Claims"
+      ],
+      "author": [
+        {
+          "given": "David",
+          "family": "Wadden",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shanchuan",
+          "family": "Lin",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kyle",
+          "family": "Lo",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lucy Lu",
+          "family": "Wang",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Madeleine",
+          "family": "van Zuylen",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Arman",
+          "family": "Cohan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Hannaneh",
+          "family": "Hajishirzi",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "7534-7550",
+      "article-number": null,
+      "URL": "https://doi.org/10.18653/v1/2020.emnlp-main.609"
+    }
+  }
+]

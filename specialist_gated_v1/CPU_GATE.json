@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "at": "2026-10-04T08:46:35.497697+00:00",
+  "protocol_sha256": "77fb7c5ed33710b51c6321b1721f21a5682db62681c1680a70001cc89a832572",
+  "source_document_disjoint": true,
+  "claim_disjoint": true,
+  "no_truncation": true,
+  "scorer_known_cases_passed": true
+}

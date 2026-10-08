@@ -1,0 +1,42 @@
+{
+  "passed": true,
+  "documents": [
+    {
+      "file": "R2D2_Guard_TETC_main_submission_20261008.tex",
+      "passes": [
+        {
+          "pass_number": 1,
+          "exit_code": 0
+        },
+        {
+          "pass_number": 2,
+          "exit_code": 0
+        },
+        {
+          "pass_number": 3,
+          "exit_code": 0
+        }
+      ],
+      "pages": 12
+    },
+    {
+      "file": "R2D2_Guard_TETC_supplementary_submission_20261008.tex",
+      "passes": [
+        {
+          "pass_number": 1,
+          "exit_code": 0
+        },
+        {
+          "pass_number": 2,
+          "exit_code": 0
+        },
+        {
+          "pass_number": 3,
+          "exit_code": 0
+        }
+      ],
+      "pages": 28
+    }
+  ],
+  "cover_letter_pages": 1
+}

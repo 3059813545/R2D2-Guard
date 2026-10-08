@@ -1,0 +1,8 @@
+{
+  "state": "complete",
+  "at": "2026-10-04T16:16:45.806958+00:00",
+  "archive": "/root/autodl-tmp/10.4/specialist_formal_completed_20261004.tar.gz",
+  "archive_bytes": 388581632,
+  "archive_sha256": "591e237c11faf7f04d15ea095e86f16c4a8ad4d7ee33bac48eae44123e849ce7",
+  "token_replay_passed": true
+}

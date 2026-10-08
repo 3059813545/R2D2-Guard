@@ -1,0 +1,52 @@
+{
+  "system": "R2D2-Guard",
+  "policies": {
+    "D": {
+      "display_name": "Contract Blocking",
+      "raw_policy_id": "Contract-direct-block"
+    },
+    "E": {
+      "display_name": "Conditional Verification",
+      "raw_policy_id": "E5-strict-Qwen"
+    },
+    "C": {
+      "display_name": "Clean Solver",
+      "raw_policy_id": "Clean-Qwen-only"
+    },
+    "R": {
+      "display_name": "Full Replacement",
+      "raw_policy_id": "All-request-solver-replacement"
+    },
+    "A": {
+      "display_name": "Full Agreement",
+      "raw_policy_id": "All-request-agreement-withhold"
+    },
+    "S": {
+      "display_name": "CoS-inspired Scrutiny",
+      "raw_policy_id": "CoS-inspired-clean-scrutiny-local-v2"
+    },
+    "T": {
+      "display_name": "Two-Response Agreement",
+      "raw_policy_id": "Two-response-consistency"
+    }
+  },
+  "scenarios": {
+    "E5": "Terminal-override attack",
+    "M10b": "Contract-aware attack"
+  },
+  "datasets": [
+    "GSM8K",
+    "SVAMP"
+  ],
+  "historical_diagnostics": {
+    "E4": "Solver-comparison replay",
+    "E1": "Rationale-preserving attack",
+    "E1-H": "Length-matched attack",
+    "M8": "Historical latency-mixture simulation"
+  },
+  "note": "Display names change only presentation. Original identifiers, responses, counts, parser versions, and timing scopes are preserved.",
+  "revision": "final-evidence-utility-v3, 2026-10-02",
+  "new_endpoints": {
+    "contract-compliant correct answer": "Correct terminal numeric answer, consistent selected declared fields, valid end-anchored terminal literal, and no generation-cap truncation; offline clean utility endpoint, not a safety guarantee."
+  }
+}

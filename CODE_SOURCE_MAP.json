@@ -1,0 +1,236 @@
+[
+  {
+    "file": "code/historical/R2D2_Guard_extension_source_correction_20261003/audit_completed_experiment.py",
+    "archive": "R2D2_Guard_extension_source_correction_20261003.zip",
+    "member": "audit_completed_experiment.py",
+    "sha256": "2af4461c2aedaf2880e972036006feb5a2c3834647fd28684f335c491d80437d"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_extension_source_correction_20261003/e5_response_parser.py",
+    "archive": "R2D2_Guard_extension_source_correction_20261003.zip",
+    "member": "e5_response_parser.py",
+    "sha256": "c248590b71b6ab946a1aaca0e03cc26e53dab297fd6098bb0e71d03ddf441ca8"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_extension_source_correction_20261003/reanalyze_source_corrected.py",
+    "archive": "R2D2_Guard_extension_source_correction_20261003.zip",
+    "member": "reanalyze_source_corrected.py",
+    "sha256": "7f0546b3b2d7b19aecd1a85b9831b1a04cc64cb28685da08ab176eab6f841a29"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_extension_source_correction_20261003/supplementary_experiments_20261003/audit_question_pools.py",
+    "archive": "R2D2_Guard_extension_source_correction_20261003.zip",
+    "member": "supplementary_experiments_20261003/audit_question_pools.py",
+    "sha256": "25bf8efc8c7dbbf5326d160657d0ab21d7c6c387c780090d12abf4836608569e"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_extension_source_correction_20261003/supplementary_experiments_20261003/run_solver_sensitivity.py",
+    "archive": "R2D2_Guard_extension_source_correction_20261003.zip",
+    "member": "supplementary_experiments_20261003/run_solver_sensitivity.py",
+    "sha256": "752bcf513d2a6f5d97bd8bef9abfcb344d9812b561436de0ba21acf9f5d526c3"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_extension_source_correction_20261003/supplementary_experiments_20261003/run_supplement.py",
+    "archive": "R2D2_Guard_extension_source_correction_20261003.zip",
+    "member": "supplementary_experiments_20261003/run_supplement.py",
+    "sha256": "4cd590c8687d7ac8a0f879a2e6cb9ae7f7d6e328461298a8513dc1b80b807b9d"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_extension_source_correction_20261003/supplementary_experiments_20261003/server_inventory.py",
+    "archive": "R2D2_Guard_extension_source_correction_20261003.zip",
+    "member": "supplementary_experiments_20261003/server_inventory.py",
+    "sha256": "06830ef0e811bd3868621b353a927d15dfb3e704c8e02e22c275fd2c0f48f842"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_extension_source_correction_20261003/verify_extension_and_corrections.py",
+    "archive": "R2D2_Guard_extension_source_correction_20261003.zip",
+    "member": "verify_extension_and_corrections.py",
+    "sha256": "816b1669904faef19ebffc220e3b483d58ea8b59658d6ee99df3588efb1424e7"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_response_policy_audit_20261004/response_policy_audit/audit_completed_results.py",
+    "archive": "R2D2_Guard_response_policy_audit_20261004.zip",
+    "member": "response_policy_audit/audit_completed_results.py",
+    "sha256": "e956734250f2cfbe9612838e1709114eeb8bb4115e916e4f0e6a74ee2f95e384"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_response_policy_audit_20261004/response_policy_audit/registered_generation/run_extension.py",
+    "archive": "R2D2_Guard_response_policy_audit_20261004.zip",
+    "member": "response_policy_audit/registered_generation/run_extension.py",
+    "sha256": "fd59b6173162d51dd9b3f1a65fcdfcb40a9a81e2902429116f283d978b72c7b5"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_response_policy_audit_20261004/response_policy_audit/registered_generation/run_value_controls.py",
+    "archive": "R2D2_Guard_response_policy_audit_20261004.zip",
+    "member": "response_policy_audit/registered_generation/run_value_controls.py",
+    "sha256": "2643676fab9ef32d581a4af4427553420b88ea73bd36dbaa1a4bfe8a6b7a379d"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/adapter_utility/adapter_utility_benchmark.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/adapter_utility/adapter_utility_benchmark.py",
+    "sha256": "33c41e696e2c42cdcf275ab4686f9d79143d434f8149adca232ce075db8537b2"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/adapter_utility_analysis.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/adapter_utility_analysis.py",
+    "sha256": "dcf2c7f85bf068e0d9584254ffecb5f12cfa504c0e7ee9213b504fe1e0056845"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/archived_analysis_sources/binding_faults.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/archived_analysis_sources/binding_faults.py",
+    "sha256": "1a7d7f5afb0184c82e9a13cec993a80ebfaa81b95d7fba6f8cf451f46978c353"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/archived_analysis_sources/closest_comparison.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/archived_analysis_sources/closest_comparison.py",
+    "sha256": "7ae0b5852cc8963165abbdd14f0cc780d36d27b9d9ce19d625f4feb3c343e248"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/archived_analysis_sources/closest_gate.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/archived_analysis_sources/closest_gate.py",
+    "sha256": "ae3bf5122b842035637b25692e310eb4242485ae065f07a0250b39a751f996bd"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/archived_analysis_sources/controller_comparison.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/archived_analysis_sources/controller_comparison.py",
+    "sha256": "6afcbad988129059cd6c5768793fa94c8ab9daf9ff4af598ab00fd2ec7531b91"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/archived_analysis_sources/e3_fault_matrix.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/archived_analysis_sources/e3_fault_matrix.py",
+    "sha256": "295878f231a5220b5da98163f5037d2e9bc72735158715bd14f463d0e867a0d1"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/archived_analysis_sources/e3_release_controller.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/archived_analysis_sources/e3_release_controller.py",
+    "sha256": "a9e7e201234b5e6d06db1889a85d2020857f196b98b0be12e27ef8714268b326"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/archived_analysis_sources/extended_models.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/archived_analysis_sources/extended_models.py",
+    "sha256": "6462ea9ae25303cb720f4ac6319b49c7e3da386c6953dae5401f5b3ac5a2e1fc"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/archived_analysis_sources/paired_benchmark.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/archived_analysis_sources/paired_benchmark.py",
+    "sha256": "cca6239ccdd70325f9214042a8a8ae923a6035cbf7a636704d06983e61eac148"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/archived_analysis_sources/paired_statistics.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/archived_analysis_sources/paired_statistics.py",
+    "sha256": "590d97c8f3f838032e4f698d6b48f547064d2b8b1ca1ac36e825c68da70e065a"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/archived_analysis_sources/primary_diagnostics.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/archived_analysis_sources/primary_diagnostics.py",
+    "sha256": "bc4abd100a9e3501962d82f815d761321eb1734cf6b6c1461c83ea51d812e3f2"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/archived_analysis_sources/primary_statistics.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/archived_analysis_sources/primary_statistics.py",
+    "sha256": "36ac4de497156991838c8b717b0cdbf3d86bf4a926504987aae5c21d15d1d36b"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/archived_analysis_sources/review_cpu.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/archived_analysis_sources/review_cpu.py",
+    "sha256": "c22593846a3d9b5e72522cc97b122cf4d8d563868aeb61a4154521b9ef34e2a8"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/archived_analysis_sources/service_reliability.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/archived_analysis_sources/service_reliability.py",
+    "sha256": "e105e75d9bf87d195882851bfe7cc9db6dfdc64c84bd169110996f2a02fe8f6a"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/audit_pack/e5_response_parser.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/audit_pack/e5_response_parser.py",
+    "sha256": "c248590b71b6ab946a1aaca0e03cc26e53dab297fd6098bb0e71d03ddf441ca8"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/audit_pack/replay_audit.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/audit_pack/replay_audit.py",
+    "sha256": "da42c2ae3d59119bd3d3fac09e6bc91360922d1c88f9aec97ab99eb53f38527d"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/controller_comparison/e3_release_controller_checked.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/controller_comparison/e3_release_controller_checked.py",
+    "sha256": "92e716dcf87c1f1bb33017d035e6c3400abcabbc8d6731379379db9b15c88807"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/decimal_parser.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/decimal_parser.py",
+    "sha256": "f5650dd214c924ff0a9051aa6c7bf469fcf9ffb401302578e86eac057bb8d66d"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/policy_decision_analysis.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/policy_decision_analysis.py",
+    "sha256": "90a4e282b58d620f938c1039a501de4cc2a724c857df1176a6c1b9a1db7348a3"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/prompt_clarification/adapter_prompt_clarification.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/prompt_clarification/adapter_prompt_clarification.py",
+    "sha256": "1ed20e80c6bb7166bc0d1cf524d154bba713aacf924880206bf3babbe97a8324"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/replay_results.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/replay_results.py",
+    "sha256": "5370de40cdd662ad8cd6f160c5f0676bdc608a6df0d4fe2e63e9131b6e2ff401"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/replay_submission.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/replay_submission.py",
+    "sha256": "6f1b4d05013e9c1821202e2f75111df7c6349ff7e6ddb6be44796f76394fbc82"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_reviewer_replay_20261002/reviewer_replay_bundle/retention_audit.py",
+    "archive": "R2D2_Guard_reviewer_replay_20261002.zip",
+    "member": "reviewer_replay_bundle/retention_audit.py",
+    "sha256": "623de26d721745c1b5a360a2701beac94062d8350a0661995ce08f6890d603a1"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_task_native_audit_20261004/run_strong_formal.py",
+    "archive": "R2D2_Guard_task_native_audit_20261004.zip",
+    "member": "run_strong_formal.py",
+    "sha256": "3ebaa5e237862f9537884261a26c86bd0fdab68e200c8d021f188fe6b334639c"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_task_native_audit_20261004/audit_formal_evidence.py",
+    "archive": "R2D2_Guard_task_native_audit_20261004.zip",
+    "member": "audit_formal_evidence.py",
+    "sha256": "5daaa9c4eafc2c9bd2e3b4fea6a4bb6a69bd50e0c4f9502b5106182b3700c339"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_task_native_audit_20261004/audit_actions_and_residuals.py",
+    "archive": "R2D2_Guard_task_native_audit_20261004.zip",
+    "member": "audit_actions_and_residuals.py",
+    "sha256": "852ac4aefe1051ec65ce5e92a63b1785a47d5568dd71eed3d55669511fde2698"
+  },
+  {
+    "file": "code/historical/R2D2_Guard_task_native_audit_20261004/pilot_evidence/audit_pilot_evidence.py",
+    "archive": "R2D2_Guard_task_native_audit_20261004.zip",
+    "member": "pilot_evidence/audit_pilot_evidence.py",
+    "sha256": "cc6ed9e80f2d9a82f1b5e12d1a3d4ea5e465bf79c722f99feaa30cc91e378e6e"
+  }
+]

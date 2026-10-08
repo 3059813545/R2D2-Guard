@@ -1,0 +1,90 @@
+[
+  {
+    "family": "7B",
+    "repository": "Qwen/Qwen2.5-7B-Instruct",
+    "upstream_commit": "a09a35458c702b33eeacc393d103063234e8bc28",
+    "weights": [
+      {
+        "name": "model-00001-of-00004.safetensors",
+        "local_sha256": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7",
+        "upstream_sha256": "a1333e6293854747c481288ea83b348226af178dd565c49b6f9495ba1966aba7",
+        "matched": true
+      },
+      {
+        "name": "model-00002-of-00004.safetensors",
+        "local_sha256": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185",
+        "upstream_sha256": "f5d25a2772cb825164a2a2c0fb6d51a87e282abf21e4dd75bc5cfb3cd0ea6185",
+        "matched": true
+      },
+      {
+        "name": "model-00003-of-00004.safetensors",
+        "local_sha256": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5",
+        "upstream_sha256": "8efdec4c1bc12317ae1a38dc42b595ce777738a64deea3fcb8a0a91381bcdfd5",
+        "matched": true
+      },
+      {
+        "name": "model-00004-of-00004.safetensors",
+        "local_sha256": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd",
+        "upstream_sha256": "1a72d403cdf0c1ec3cb7f289f17b394a01e64394c2e9b3c0f94dbce3faf879bd",
+        "matched": true
+      }
+    ],
+    "all_weight_payloads_match": true
+  },
+  {
+    "family": "14B",
+    "repository": "Qwen/Qwen2.5-14B-Instruct",
+    "upstream_commit": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+    "weights": [
+      {
+        "name": "model-00001-of-00008.safetensors",
+        "local_sha256": "b477be7572f0ab3ae3cbba38d508cc33e70600b2045669c4ad848051c3432094",
+        "upstream_sha256": "b477be7572f0ab3ae3cbba38d508cc33e70600b2045669c4ad848051c3432094",
+        "matched": true
+      },
+      {
+        "name": "model-00002-of-00008.safetensors",
+        "local_sha256": "eb356aacae443e30f52712b1e98fadf206976365e2f5ee886321b0bb38c7cea8",
+        "upstream_sha256": "eb356aacae443e30f52712b1e98fadf206976365e2f5ee886321b0bb38c7cea8",
+        "matched": true
+      },
+      {
+        "name": "model-00003-of-00008.safetensors",
+        "local_sha256": "cee9dbdf738ce61adb21c70ad5c5585747caaab6457c9ffc3bfa20d73127c2c6",
+        "upstream_sha256": "cee9dbdf738ce61adb21c70ad5c5585747caaab6457c9ffc3bfa20d73127c2c6",
+        "matched": true
+      },
+      {
+        "name": "model-00004-of-00008.safetensors",
+        "local_sha256": "b1201a6edcac8ef96a37040524fe37a5a84e446513ed40491e764a37302385fa",
+        "upstream_sha256": "b1201a6edcac8ef96a37040524fe37a5a84e446513ed40491e764a37302385fa",
+        "matched": true
+      },
+      {
+        "name": "model-00005-of-00008.safetensors",
+        "local_sha256": "fbbda3cdee31895d0c57d617449af5579d219df34f3d63f7a23acbfe7fb0a647",
+        "upstream_sha256": "fbbda3cdee31895d0c57d617449af5579d219df34f3d63f7a23acbfe7fb0a647",
+        "matched": true
+      },
+      {
+        "name": "model-00006-of-00008.safetensors",
+        "local_sha256": "f7ac652aa101717c97cfeccf5109985cca5b04529b57d3f4d2ec7a802266296b",
+        "upstream_sha256": "f7ac652aa101717c97cfeccf5109985cca5b04529b57d3f4d2ec7a802266296b",
+        "matched": true
+      },
+      {
+        "name": "model-00007-of-00008.safetensors",
+        "local_sha256": "e9115e615b575acb6e8b3a06524b32cbf7f680f07517125e4334f62c3f4acb0d",
+        "upstream_sha256": "e9115e615b575acb6e8b3a06524b32cbf7f680f07517125e4334f62c3f4acb0d",
+        "matched": true
+      },
+      {
+        "name": "model-00008-of-00008.safetensors",
+        "local_sha256": "a77f603d8368749c19d3ac9cf2a300e476edcc794ea41af8e473ee12935eadb8",
+        "upstream_sha256": "a77f603d8368749c19d3ac9cf2a300e476edcc794ea41af8e473ee12935eadb8",
+        "matched": true
+      }
+    ],
+    "all_weight_payloads_match": true
+  }
+]

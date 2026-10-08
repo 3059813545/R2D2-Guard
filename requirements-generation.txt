@@ -1,0 +1,10 @@
+# Recorded author environment; a compatible NVIDIA/CUDA installation is required.
+# Install torch 2.5.1 for CUDA 12.1 from its official wheel index first.
+numpy==2.2.6
+transformers==5.12.1
+peft==0.19.1
+bitsandbytes==0.49.2
+accelerate==1.14.0
+datasets==5.0.0
+tokenizers==0.22.2
+safetensors==0.7.0

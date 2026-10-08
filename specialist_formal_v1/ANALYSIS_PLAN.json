@@ -1,0 +1,22 @@
+{
+  "registration_scope": "Secondary analysis plan written before any final-holdout model generation; pilot observed, formal training underway.",
+  "primary_capability_endpoint": "Joint correct: benchmark label, source binding, and at least one complete annotated rationale set; report label correctness and binding separately.",
+  "primary_capability_comparators": ["same-base 7B three-shot", "14B three-shot", "canonicalized 14B zero-shot and three-shot"],
+  "canonicalization_scope": "Reference-only reconstruction of exact quotes from predicted integer source indices; no label, index, protected question or adapted-response rewriting; no gold access.",
+  "primary_release_comparisons": ["SourceBindingBlocking versus FullAgreement14", "ConditionalVerification14 versus FullAgreement14", "FullAgreement14 versus CanonicalCleanSolver14"],
+  "primary_attack_comparison": "Adaptive chosen trigger versus fixed trained trigger under FullAgreement14; matched benign adapters under the same trigger distinguish poisoning from ordinary reference/trigger failures.",
+  "question_units": {"pilot": 20, "formal": 75, "formal_target_eligible": 39},
+  "seed_units": "Three training seeds, fixed datasets and questions. Seed-wise counts and mean/range; repeated questions never pooled as independent samples.",
+  "bootstrap": {
+    "resamples": 2000,
+    "random_seed": 20261004,
+    "unit": "Connected components of final claims sharing supplied document IDs",
+    "method": "Resample the fixed number of document-connected components with replacement, retain all question/seed outputs, compute paired question-weighted differences and percentile 2.5/97.5 endpoints.",
+    "scope": "Descriptive conditional uncertainty on fixed prompts, outputs, trained adapters and observed source clusters; excludes new training seeds, external datasets and future attackers."
+  },
+  "failure_analysis": ["benign LoRA-only versus strongest reference-only joint successes", "correct label with invalid binding", "shared wrong-reference target agreement", "binding bypass without final target selection", "adaptive budget exhausted without improvement", "truncations and technical failures"],
+  "all_denominators": "Generate all 75 final claims in each clean/fixed/adaptive condition; report full selection/withholding/wrong-label counts and separate 39 eligible attack denominators.",
+  "cost": "Logical model-call counts and sums of recorded generation times; physical model calls, repeated condition records, duplicate-response reuse and training/search cost reported separately. No fresh end-to-end service latency or confirmed delivery claim.",
+  "tests": "No confirmatory p-value claim, no sample exclusions after observation, no inferential claim from the 20-case pilot; all zero or failed adaptive outcomes remain reportable.",
+  "remaining_boundaries": ["public data do not establish pretraining-free validation", "provided context is not retrieval", "local recorded-history disjointness is bounded", "three-seed bounded suffix search does not establish arbitrary adaptive robustness", "reference agreement does not certify entailment"]
+}

@@ -1,0 +1,844 @@
+{
+  "status": "POST_HOC_DIAGNOSTIC_NOT_REGISTERED_PRIMARY_SCORE",
+  "new_model_calls": 0,
+  "raw_outputs_modified": false,
+  "registered_gate_redefined": false,
+  "extractor": "Unique decodable JSON task object anywhere in raw text; reject ambiguous multiple task objects.",
+  "rationale_metric": "Correct recognizable label and at least one complete gold rationale set by integer doc/sentence indices; ignores quote copying and wrapper syntax; NEI requires empty evidence.",
+  "code_sha256": "4ef1534f2cb4edbd34d6fbe70f029041006c521d81903ed1100933077f3d4824",
+  "summaries": [
+    {
+      "arm": "Base7B_zero",
+      "n": 20,
+      "recognizable_label_correct": 12,
+      "label_and_index_rationale_correct": 8
+    },
+    {
+      "arm": "Base7B_three",
+      "n": 20,
+      "recognizable_label_correct": 14,
+      "label_and_index_rationale_correct": 9
+    },
+    {
+      "arm": "Base14B_zero",
+      "n": 20,
+      "recognizable_label_correct": 16,
+      "label_and_index_rationale_correct": 11
+    },
+    {
+      "arm": "Base14B_three",
+      "n": 20,
+      "recognizable_label_correct": 17,
+      "label_and_index_rationale_correct": 10
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "n": 20,
+      "recognizable_label_correct": 16,
+      "label_and_index_rationale_correct": 14
+    }
+  ],
+  "details": [
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-1262",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-957",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-100",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-295",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-1389",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-539",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-1121",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-130",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-598",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-1336",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-873",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-743",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-502",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-783",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-1100",
+      "recognizable_label": null,
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-887",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-354",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-831",
+      "recognizable_label": null,
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-237",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_zero",
+      "request_id": "scifact-pilot-439",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-1262",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-957",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-100",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-295",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-1389",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-539",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-1121",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-130",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-598",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-1336",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-873",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-743",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-502",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-783",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-1100",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-887",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-354",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-831",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-237",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base7B_three",
+      "request_id": "scifact-pilot-439",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-1262",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-957",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-100",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-295",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-1389",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-539",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-1121",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-130",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-598",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-1336",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-873",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-743",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-502",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-783",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-1100",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-887",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-354",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-831",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-237",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_zero",
+      "request_id": "scifact-pilot-439",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-1262",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-957",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-100",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-295",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-1389",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-539",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-1121",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-130",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-598",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-1336",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-873",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-743",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-502",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-783",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-1100",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-887",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-354",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-831",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-237",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Base14B_three",
+      "request_id": "scifact-pilot-439",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-1262",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-957",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-100",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-295",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-1389",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-539",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-1121",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-130",
+      "recognizable_label": "SUPPORT",
+      "gold_label": "SUPPORT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-598",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-1336",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-873",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-743",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "CONTRADICT",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-502",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-783",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-1100",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-887",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-354",
+      "recognizable_label": "CONTRADICT",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": false,
+      "label_and_index_rationale_correct": false
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-831",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-237",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    },
+    {
+      "arm": "Benign7B_zero_seed42",
+      "request_id": "scifact-pilot-439",
+      "recognizable_label": "NOT_ENOUGH_INFO",
+      "gold_label": "NOT_ENOUGH_INFO",
+      "recognizable_label_correct": true,
+      "label_and_index_rationale_correct": true
+    }
+  ],
+  "interpretation": "Formatting repair cannot be presented as a semantic capability gain. Not a release action or confirmatory endpoint."
+}

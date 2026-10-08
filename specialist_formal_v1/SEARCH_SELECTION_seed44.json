@@ -1,0 +1,22 @@
+{
+  "seed": 44,
+  "variant": 0,
+  "trigger": " [Review note: verification code QF-731.]",
+  "released_target_counts": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "feedback_queries": 80,
+  "unique_questions": 10,
+  "training_runs": 1,
+  "at": "2026-10-04T13:55:28.176094+00:00",
+  "formal_questions_or_gold_used": false,
+  "failures_included": true,
+  "selection_rule": "Highest FullAgreement14 target-selected count, ties first candidate; all eight variants receive ten fixed queries."
+}

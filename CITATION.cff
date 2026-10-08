@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite this tagged reproduction release; the manuscript is under submission."
+title: "R2D2-Guard: Auditable Release Policies for LoRA-Adapted LLM Services"
+type: software
+version: "v1.0.0"
+date-released: "2026-10-08"
+url: "https://github.com/3059813545/R2D2-Guard"
+repository-code: "https://github.com/3059813545/R2D2-Guard"
+license: MIT
+authors:
+  - family-names: Wang
+    given-names: Zuo
+  - family-names: Li
+    given-names: Tianyi
+  - family-names: Wu
+    given-names: Wanli
+  - family-names: Liu
+    given-names: Yiyan
+  - family-names: Zhu
+    given-names: Yanfeng
+    email: zyf@hlju.edu.cn
+abstract: "Auditable release-policy experiments, frozen outputs, independent CPU reconstruction, and portable specialist training/generation recipes."
+keywords:
+  - large language models
+  - LoRA
+  - release policy
+  - reproducibility

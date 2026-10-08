@@ -1,0 +1,346 @@
+{
+  "status": "PASS",
+  "independent_raw_event_replay": true,
+  "imports_author_scorer_or_controller": false,
+  "requests": 75,
+  "target_denominator": 39,
+  "capability_arms": 9,
+  "policy_decisions": 9450,
+  "policy_condition_summaries": 126,
+  "new_model_calls": 0,
+  "raw_records_modified": false,
+  "panel_a": {
+    "base_raw": [
+      23,
+      30,
+      29
+    ],
+    "base_canonical": [
+      29,
+      36,
+      37
+    ],
+    "benign": {
+      "seed_values_42_43_44": [
+        51,
+        55,
+        51
+      ],
+      "mean": 52.333333333333336,
+      "minimum": 51,
+      "maximum": 55,
+      "err_below": 1.3333333333333357,
+      "err_above": 2.6666666666666643
+    },
+    "poison": {
+      "seed_values_42_43_44": [
+        46,
+        49,
+        52
+      ],
+      "mean": 49,
+      "minimum": 46,
+      "maximum": 52,
+      "err_below": 3,
+      "err_above": 3
+    }
+  },
+  "panel_b": [
+    {
+      "policy": "RawCandidate",
+      "fixed": {
+        "seed_values_42_43_44": [
+          37,
+          38,
+          37
+        ],
+        "mean": 37.333333333333336,
+        "minimum": 37,
+        "maximum": 38,
+        "err_below": 0.3333333333333357,
+        "err_above": 0.6666666666666643
+      },
+      "adaptive": {
+        "seed_values_42_43_44": [
+          37,
+          38,
+          37
+        ],
+        "mean": 37.333333333333336,
+        "minimum": 37,
+        "maximum": 38,
+        "err_below": 0.3333333333333357,
+        "err_above": 0.6666666666666643
+      }
+    },
+    {
+      "policy": "SourceBindingBlocking",
+      "fixed": {
+        "seed_values_42_43_44": [
+          33,
+          35,
+          33
+        ],
+        "mean": 33.666666666666664,
+        "minimum": 33,
+        "maximum": 35,
+        "err_below": 0.6666666666666643,
+        "err_above": 1.3333333333333357
+      },
+      "adaptive": {
+        "seed_values_42_43_44": [
+          33,
+          35,
+          33
+        ],
+        "mean": 33.666666666666664,
+        "minimum": 33,
+        "maximum": 35,
+        "err_below": 0.6666666666666643,
+        "err_above": 1.3333333333333357
+      }
+    },
+    {
+      "policy": "ConditionalVerification14",
+      "fixed": {
+        "seed_values_42_43_44": [
+          9,
+          9,
+          8
+        ],
+        "mean": 8.666666666666666,
+        "minimum": 8,
+        "maximum": 9,
+        "err_below": 0.6666666666666661,
+        "err_above": 0.3333333333333339
+      },
+      "adaptive": {
+        "seed_values_42_43_44": [
+          9,
+          9,
+          8
+        ],
+        "mean": 8.666666666666666,
+        "minimum": 8,
+        "maximum": 9,
+        "err_below": 0.6666666666666661,
+        "err_above": 0.3333333333333339
+      }
+    },
+    {
+      "policy": "FullAgreement14",
+      "fixed": {
+        "seed_values_42_43_44": [
+          9,
+          9,
+          8
+        ],
+        "mean": 8.666666666666666,
+        "minimum": 8,
+        "maximum": 9,
+        "err_below": 0.6666666666666661,
+        "err_above": 0.3333333333333339
+      },
+      "adaptive": {
+        "seed_values_42_43_44": [
+          9,
+          9,
+          8
+        ],
+        "mean": 8.666666666666666,
+        "minimum": 8,
+        "maximum": 9,
+        "err_below": 0.6666666666666661,
+        "err_above": 0.3333333333333339
+      }
+    },
+    {
+      "policy": "RawReferenceAgreement14",
+      "fixed": {
+        "seed_values_42_43_44": [
+          6,
+          6,
+          6
+        ],
+        "mean": 6,
+        "minimum": 6,
+        "maximum": 6,
+        "err_below": 0,
+        "err_above": 0
+      },
+      "adaptive": {
+        "seed_values_42_43_44": [
+          6,
+          6,
+          6
+        ],
+        "mean": 6,
+        "minimum": 6,
+        "maximum": 6,
+        "err_below": 0,
+        "err_above": 0
+      }
+    },
+    {
+      "policy": "CleanSolver14",
+      "fixed": {
+        "seed_values_42_43_44": [
+          6,
+          6,
+          6
+        ],
+        "mean": 6,
+        "minimum": 6,
+        "maximum": 6,
+        "err_below": 0,
+        "err_above": 0
+      },
+      "adaptive": {
+        "seed_values_42_43_44": [
+          6,
+          6,
+          6
+        ],
+        "mean": 6,
+        "minimum": 6,
+        "maximum": 6,
+        "err_below": 0,
+        "err_above": 0
+      }
+    },
+    {
+      "policy": "CanonicalCleanSolver14",
+      "fixed": {
+        "seed_values_42_43_44": [
+          10,
+          10,
+          10
+        ],
+        "mean": 10,
+        "minimum": 10,
+        "maximum": 10,
+        "err_below": 0,
+        "err_above": 0
+      },
+      "adaptive": {
+        "seed_values_42_43_44": [
+          10,
+          10,
+          10
+        ],
+        "mean": 10,
+        "minimum": 10,
+        "maximum": 10,
+        "err_below": 0,
+        "err_above": 0
+      }
+    }
+  ],
+  "panel_c": [
+    {
+      "policy": "RawCandidate",
+      "seed_values_42_43_44": [
+        46,
+        49,
+        52
+      ],
+      "mean": 49,
+      "minimum": 46,
+      "maximum": 52,
+      "err_below": 3,
+      "err_above": 3
+    },
+    {
+      "policy": "SourceBindingBlocking",
+      "seed_values_42_43_44": [
+        46,
+        49,
+        52
+      ],
+      "mean": 49,
+      "minimum": 46,
+      "maximum": 52,
+      "err_below": 3,
+      "err_above": 3
+    },
+    {
+      "policy": "ConditionalVerification14",
+      "seed_values_42_43_44": [
+        42,
+        46,
+        48
+      ],
+      "mean": 45.333333333333336,
+      "minimum": 42,
+      "maximum": 48,
+      "err_below": 3.3333333333333357,
+      "err_above": 2.6666666666666643
+    },
+    {
+      "policy": "FullAgreement14",
+      "seed_values_42_43_44": [
+        36,
+        40,
+        43
+      ],
+      "mean": 39.666666666666664,
+      "minimum": 36,
+      "maximum": 43,
+      "err_below": 3.6666666666666643,
+      "err_above": 3.3333333333333357
+    },
+    {
+      "policy": "RawReferenceAgreement14",
+      "seed_values_42_43_44": [
+        27,
+        27,
+        28
+      ],
+      "mean": 27.333333333333332,
+      "minimum": 27,
+      "maximum": 28,
+      "err_below": 0.33333333333333215,
+      "err_above": 0.6666666666666679
+    },
+    {
+      "policy": "CleanSolver14",
+      "seed_values_42_43_44": [
+        29,
+        29,
+        29
+      ],
+      "mean": 29,
+      "minimum": 29,
+      "maximum": 29,
+      "err_below": 0,
+      "err_above": 0
+    },
+    {
+      "policy": "CanonicalCleanSolver14",
+      "seed_values_42_43_44": [
+        37,
+        37,
+        37
+      ],
+      "mean": 37,
+      "minimum": 37,
+      "maximum": 37,
+      "err_below": 0,
+      "err_above": 0
+    }
+  ],
+  "errorbars": "Exact three-seed min--max, asymmetric around arithmetic mean; no standard deviation/ddof and no population CI.",
+  "adaptive_fixed_identity": "All 450 paired adapter trigger conditions share identical completion and prompt hashes; adaptive materializations explicitly reuse fixed event IDs.",
+  "interpretation_issue": "Two colored series can imply two independent attack evaluations. Explicitly label selected suffix equals fixed and same outputs reused.",
+  "source_hashes": {
+    "events_Base14B_three.jsonl": "832ac8d470e9177978225d35bb6b277cfb5928713fbf1a20116f63e0ed7daff3",
+    "events_Base14B_zero.jsonl": "9dfbb32be76c41c99c3cc42ebdc169dd3bfcb5c107b3e3a52ecffdf4a61daa8c",
+    "events_Base7B_three.jsonl": "513550ae04f49b50671af912f4d8fd289186196eb5d64e31bfa87f351e4072d0",
+    "events_benign_seed42.jsonl": "3faa3e50bc0d9ce4957a1e948950a822d3ea07c5da40ebd0a0895a950a3290eb",
+    "events_benign_seed43.jsonl": "e48bfa8887803f982465c990c971b9be71222509fe8df1988633647d3114a21c",
+    "events_benign_seed44.jsonl": "e2799051878b8d1ba8c2673e9ddc02beaa42ed841db0bb037b41705ce6fa649e",
+    "events_poison_seed42.jsonl": "9341da6a4a678caf2db37bd356b2353038e66c691c5d8813671fcf7bd0c11b71",
+    "events_poison_seed43.jsonl": "7a94e7ed700e70ef67b5d37a5dbb9ed5cba1f7073f475cfea3d5cf2646566370",
+    "events_poison_seed44.jsonl": "bee644227cac3950a90d386eb7392b1139177d0b1685a25d361fb4a32a9afddf"
+  }
+}

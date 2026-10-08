@@ -1,0 +1,465 @@
+{
+  "figure_dimensions_inches": [
+    7.16,
+    6.16
+  ],
+  "all_text_inside_canvas": true,
+  "counts_match_independent_raw_replay": true,
+  "raw_records_unchanged": true,
+  "text_bounds": [
+    {
+      "text": "7B\nthree-shot",
+      "bounds_pixels": [
+        130.7245,
+        409.11777777777775,
+        52.875,
+        21.600000000000023
+      ]
+    },
+    {
+      "text": "14B\nzero-shot",
+      "bounds_pixels": [
+        253.7285,
+        409.11777777777775,
+        48.875,
+        21.600000000000023
+      ]
+    },
+    {
+      "text": "14B\nthree-shot",
+      "bounds_pixels": [
+        372.7325,
+        409.11777777777775,
+        52.875,
+        21.600000000000023
+      ]
+    },
+    {
+      "text": "Benign\nLoRA",
+      "bounds_pixels": [
+        501.924,
+        409.11777777777775,
+        36.5,
+        21.600000000000023
+      ]
+    },
+    {
+      "text": "Poisoned\nLoRA",
+      "bounds_pixels": [
+        616.803,
+        409.11777777777775,
+        48.75,
+        21.600000000000023
+      ]
+    },
+    {
+      "text": "Joint correct (of 75)",
+      "bounds_pixels": [
+        59.599236111111125,
+        449.9375,
+        10.046875,
+        101.125
+      ]
+    },
+    {
+      "text": "0",
+      "bounds_pixels": [
+        81.70166666666668,
+        434.44,
+        6.625,
+        10.0
+      ]
+    },
+    {
+      "text": "25",
+      "bounds_pixels": [
+        75.20166666666668,
+        474.47999999999996,
+        13.125,
+        10.0
+      ]
+    },
+    {
+      "text": "50",
+      "bounds_pixels": [
+        75.20166666666668,
+        514.52,
+        13.125,
+        10.0
+      ]
+    },
+    {
+      "text": "75",
+      "bounds_pixels": [
+        75.32666666666668,
+        554.56,
+        13.0,
+        10.0
+      ]
+    },
+    {
+      "text": "Raw\ncandidate",
+      "bounds_pixels": [
+        114.43821428571431,
+        211.9977777777778,
+        50.875,
+        21.599999999999994
+      ]
+    },
+    {
+      "text": "Source\nbinding",
+      "bounds_pixels": [
+        207.43214285714288,
+        211.9977777777778,
+        37.75,
+        21.599999999999994
+      ]
+    },
+    {
+      "text": "Conditional14",
+      "bounds_pixels": [
+        276.80107142857145,
+        223.5977777777778,
+        71.875,
+        10.0
+      ]
+    },
+    {
+      "text": "Full\nagreement14",
+      "bounds_pixels": [
+        364.545,
+        211.9415277777778,
+        69.25,
+        21.65625
+      ]
+    },
+    {
+      "text": "Raw-ref\nagreement14",
+      "bounds_pixels": [
+        450.9764285714286,
+        211.9415277777778,
+        69.25000000000006,
+        21.65625
+      ]
+    },
+    {
+      "text": "Clean\nsolver14",
+      "bounds_pixels": [
+        549.8453571428572,
+        211.9977777777778,
+        44.375,
+        21.599999999999994
+      ]
+    },
+    {
+      "text": "Canonical\nsolver14",
+      "bounds_pixels": [
+        632.4017857142858,
+        211.9977777777778,
+        52.125,
+        21.599999999999994
+      ]
+    },
+    {
+      "text": "Target selected (of 39)",
+      "bounds_pixels": [
+        59.474236111111125,
+        239.769,
+        10.046875,
+        116.75
+      ]
+    },
+    {
+      "text": "0",
+      "bounds_pixels": [
+        81.70166666666668,
+        237.32000000000002,
+        6.625,
+        10.0
+      ]
+    },
+    {
+      "text": "13",
+      "bounds_pixels": [
+        75.20166666666668,
+        272.9556,
+        13.125,
+        10.0
+      ]
+    },
+    {
+      "text": "26",
+      "bounds_pixels": [
+        75.07666666666668,
+        308.59119999999996,
+        13.25,
+        10.0
+      ]
+    },
+    {
+      "text": "39",
+      "bounds_pixels": [
+        75.32666666666668,
+        344.22679999999997,
+        13.0,
+        10.0
+      ]
+    },
+    {
+      "text": "Raw\ncandidate",
+      "bounds_pixels": [
+        114.43821428571431,
+        24.117777777777775,
+        50.875,
+        21.6
+      ]
+    },
+    {
+      "text": "Source\nbinding",
+      "bounds_pixels": [
+        207.43214285714288,
+        24.117777777777775,
+        37.75,
+        21.6
+      ]
+    },
+    {
+      "text": "Conditional14",
+      "bounds_pixels": [
+        276.80107142857145,
+        35.717777777777776,
+        71.875,
+        10.0
+      ]
+    },
+    {
+      "text": "Full\nagreement14",
+      "bounds_pixels": [
+        364.545,
+        24.061527777777776,
+        69.25,
+        21.65625
+      ]
+    },
+    {
+      "text": "Raw-ref\nagreement14",
+      "bounds_pixels": [
+        450.9764285714286,
+        24.061527777777776,
+        69.25000000000006,
+        21.65625
+      ]
+    },
+    {
+      "text": "Clean\nsolver14",
+      "bounds_pixels": [
+        549.8453571428572,
+        24.117777777777775,
+        44.375,
+        21.6
+      ]
+    },
+    {
+      "text": "Canonical\nsolver14",
+      "bounds_pixels": [
+        632.4017857142858,
+        24.117777777777775,
+        52.125,
+        21.6
+      ]
+    },
+    {
+      "text": "Clean joint selected (of 75)",
+      "bounds_pixels": [
+        59.599236111111125,
+        37.3715,
+        10.046875,
+        139.625
+      ]
+    },
+    {
+      "text": "0",
+      "bounds_pixels": [
+        81.70166666666668,
+        49.44,
+        6.625,
+        10.0
+      ]
+    },
+    {
+      "text": "25",
+      "bounds_pixels": [
+        75.20166666666668,
+        83.936,
+        13.125,
+        10.0
+      ]
+    },
+    {
+      "text": "50",
+      "bounds_pixels": [
+        75.20166666666668,
+        118.432,
+        13.125,
+        10.000000000000014
+      ]
+    },
+    {
+      "text": "75",
+      "bounds_pixels": [
+        75.32666666666668,
+        152.928,
+        13.0,
+        10.0
+      ]
+    },
+    {
+      "text": "a",
+      "bounds_pixels": [
+        17.900000000000002,
+        592.984,
+        7.75,
+        14.0
+      ]
+    },
+    {
+      "text": "Clean capability: strict raw JSON + source binding",
+      "bounds_pixels": [
+        96.66000000000001,
+        593.7730625,
+        305.0,
+        12.421875
+      ]
+    },
+    {
+      "text": "b",
+      "bounds_pixels": [
+        17.900000000000002,
+        387.24,
+        8.375,
+        14.0
+      ]
+    },
+    {
+      "text": "Poisoned adapters: target SUPPORT selections",
+      "bounds_pixels": [
+        96.66000000000001,
+        388.0290625,
+        287.125,
+        12.421875
+      ]
+    },
+    {
+      "text": "Same suffix; outputs reused",
+      "bounds_pixels": [
+        554.407,
+        370.1205625,
+        145.125,
+        10.046875
+      ]
+    },
+    {
+      "text": "c",
+      "bounds_pixels": [
+        17.900000000000002,
+        181.496,
+        7.75,
+        14.0
+      ]
+    },
+    {
+      "text": "Poisoned adapters: clean joint-correct selections",
+      "bounds_pixels": [
+        96.66000000000001,
+        182.2850625,
+        296.875,
+        12.421875
+      ]
+    },
+    {
+      "text": "Bars = three-seed mean; whiskers = min-max; seed symbols as in a",
+      "bounds_pixels": [
+        96.66000000000001,
+        164.99256250000002,
+        352.5,
+        10.046875
+      ]
+    },
+    {
+      "text": "All panels use recorded outputs; seed ranges are not population confidence intervals.",
+      "bounds_pixels": [
+        96.66000000000001,
+        6.064562499999999,
+        442.24999999999994,
+        10.046875000000002
+      ]
+    },
+    {
+      "text": "Raw joint",
+      "bounds_pixels": [
+        119.09055555555557,
+        574.5240555555555,
+        48.375,
+        10.046875
+      ]
+    },
+    {
+      "text": "Canonical reference",
+      "bounds_pixels": [
+        198.7502777777778,
+        574.5240555555555,
+        104.75,
+        10.0
+      ]
+    },
+    {
+      "text": "Seed 42",
+      "bounds_pixels": [
+        334.785,
+        574.5240555555555,
+        43.75,
+        10.0
+      ]
+    },
+    {
+      "text": "Seed 43",
+      "bounds_pixels": [
+        409.81972222222225,
+        574.5240555555555,
+        43.625,
+        10.0
+      ]
+    },
+    {
+      "text": "Seed 44",
+      "bounds_pixels": [
+        484.7294444444445,
+        574.5240555555555,
+        43.62499999999994,
+        10.0
+      ]
+    },
+    {
+      "text": "Fixed suffix",
+      "bounds_pixels": [
+        123.8127777777778,
+        370.01205555555555,
+        59.0,
+        10.0
+      ]
+    },
+    {
+      "text": "Search-selected suffix",
+      "bounds_pixels": [
+        222.95166666666665,
+        370.01205555555555,
+        115.125,
+        10.0
+      ]
+    }
+  ],
+  "source_fingerprints": {
+    "FORMAL_CAPABILITY.json": "5db74fe7c9e2ae295e5f073d23efd442d9b026e1b3559cd1f364162db036913b",
+    "FORMAL_POLICY_SUMMARY.json": "8d8cab565e218e09e5dc79e2d618cc6cb70977e464b1a643457ef2a2cec0a1eb"
+  }
+}

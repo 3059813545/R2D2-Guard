@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checked_condition_records": 1815,
+  "max_input_tokens": 4677,
+  "max_output_tokens": 1024,
+  "truncated_condition_records": 3,
+  "formal_protocol_sha256": "7d17637cb7228c777e7ec79abe8cdc93fee5c5e013ee563210070f65f16f0cfc",
+  "scope": "Exact prompt, trigger, input length, stored output-token decoding and EOS/cap reconstruction; CPU only. No new generation."
+}

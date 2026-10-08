@@ -1,0 +1,16 @@
+{"at":"2026-10-04T08:47:23.875766+00:00","stage":["dryrun"],"state":"starting"}
+{"at":"2026-10-04T08:47:51.706199+00:00","returncode":0,"seconds":27.828885070048273,"stage":["dryrun"],"state":"passed"}
+{"at":"2026-10-04T08:47:51.710590+00:00","stage":["train"],"state":"starting"}
+{"at":"2026-10-04T09:17:37.765416+00:00","returncode":0,"seconds":1786.0543290646747,"stage":["train"],"state":"passed"}
+{"at":"2026-10-04T09:17:37.766622+00:00","stage":["generate","--arm","Base7B_zero"],"state":"starting"}
+{"at":"2026-10-04T09:19:16.928275+00:00","returncode":0,"seconds":99.16110483696684,"stage":["generate","--arm","Base7B_zero"],"state":"passed"}
+{"at":"2026-10-04T09:19:16.931293+00:00","stage":["generate","--arm","Base7B_three"],"state":"starting"}
+{"at":"2026-10-04T09:20:56.943022+00:00","returncode":0,"seconds":100.01073926594108,"stage":["generate","--arm","Base7B_three"],"state":"passed"}
+{"at":"2026-10-04T09:20:56.943851+00:00","stage":["generate","--arm","Base14B_zero"],"state":"starting"}
+{"at":"2026-10-04T09:25:41.782171+00:00","returncode":0,"seconds":284.83707650518045,"stage":["generate","--arm","Base14B_zero"],"state":"passed"}
+{"at":"2026-10-04T09:25:41.783167+00:00","stage":["generate","--arm","Base14B_three"],"state":"starting"}
+{"at":"2026-10-04T09:29:02.181102+00:00","returncode":0,"seconds":200.39707827288657,"stage":["generate","--arm","Base14B_three"],"state":"passed"}
+{"at":"2026-10-04T09:29:02.182060+00:00","stage":["generate","--arm","Benign7B_zero_seed42"],"state":"starting"}
+{"at":"2026-10-04T09:32:40.382715+00:00","returncode":0,"seconds":218.2001364142634,"stage":["generate","--arm","Benign7B_zero_seed42"],"state":"passed"}
+{"at":"2026-10-04T09:32:40.383442+00:00","stage":["analyze"],"state":"starting"}
+{"at":"2026-10-04T09:32:40.474542+00:00","returncode":0,"seconds":0.09066828805953264,"stage":["analyze"],"state":"passed"}

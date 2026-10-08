@@ -1,0 +1,20 @@
+[
+  {
+    "id": "C1",
+    "claim": "Auditable release-policy specification and endpoint accounting",
+    "evidence": "Main III-IV; Supplement S1/S6/S9-S11",
+    "boundary": "Inherited evidence providers and enforcement guards; no new semantic/detection theorem"
+  },
+  {
+    "id": "C2",
+    "claim": "Matched evaluation separates coverage, retention, substitution, abstention and utility",
+    "evidence": "Main V/Table II-V; Supplement S3-S5/S12-S21/S24",
+    "boundary": "Fixed pools/configurations; offline Boolean/SciFact; local CoS adaptation; no SOTA superiority"
+  },
+  {
+    "id": "C3",
+    "claim": "Replayable evidence reconstructs recorded endpoints, bindings, faults and receipts",
+    "evidence": "Independent math/specialist checks; final parser audit; Supplement S22-S23",
+    "boundary": "No fresh v2 receipt, model regeneration, indispensable LoRA claim or arbitrary adaptive robustness"
+  }
+]

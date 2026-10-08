@@ -1,0 +1,354 @@
+{
+  "passed": true,
+  "scope": "Tables II-V independently reconstructed from frozen records; no new generation, latency or delivery. Qualitative Tables I/VI/VII checked in manuscript QA.",
+  "table_ii": [
+    {
+      "dataset": "gsm8k_qwen_seed42",
+      "policy": "Contract Blocking",
+      "values": [
+        "220/300",
+        "275/300",
+        "55",
+        "1/100",
+        "0/100"
+      ]
+    },
+    {
+      "dataset": "gsm8k_qwen_seed42",
+      "policy": "Conditional Verification",
+      "values": [
+        "230/300",
+        "285/300",
+        "55",
+        "1/100",
+        "0/100"
+      ]
+    },
+    {
+      "dataset": "gsm8k_qwen_seed42",
+      "policy": "Clean Solver",
+      "values": [
+        "282/300",
+        "297/300",
+        "15",
+        "98/100",
+        "0/100"
+      ]
+    },
+    {
+      "dataset": "gsm8k_qwen_seed42",
+      "policy": "Full Replacement",
+      "values": [
+        "282/300",
+        "297/300",
+        "15",
+        "98/100",
+        "0/100"
+      ]
+    },
+    {
+      "dataset": "gsm8k_qwen_seed42",
+      "policy": "Full Agreement",
+      "values": [
+        "227/300",
+        "233/300",
+        "6",
+        "0/100",
+        "0/100"
+      ]
+    },
+    {
+      "dataset": "gsm8k_qwen_seed42",
+      "policy": "CoS-inspired Scrutiny",
+      "values": [
+        "188/300",
+        "205/300",
+        "17",
+        "0/100",
+        "0/100"
+      ]
+    },
+    {
+      "dataset": "svamp_qwen_seed42",
+      "policy": "Contract Blocking",
+      "values": [
+        "85/100",
+        "99/100",
+        "14",
+        "0/100",
+        "0/100"
+      ]
+    },
+    {
+      "dataset": "svamp_qwen_seed42",
+      "policy": "Conditional Verification",
+      "values": [
+        "85/100",
+        "99/100",
+        "14",
+        "0/100",
+        "0/100"
+      ]
+    },
+    {
+      "dataset": "svamp_qwen_seed42",
+      "policy": "Clean Solver",
+      "values": [
+        "90/100",
+        "99/100",
+        "9",
+        "100/100",
+        "0/100"
+      ]
+    },
+    {
+      "dataset": "svamp_qwen_seed42",
+      "policy": "Full Replacement",
+      "values": [
+        "90/100",
+        "99/100",
+        "9",
+        "100/100",
+        "0/100"
+      ]
+    },
+    {
+      "dataset": "svamp_qwen_seed42",
+      "policy": "Full Agreement",
+      "values": [
+        "80/100",
+        "82/100",
+        "2",
+        "0/100",
+        "0/100"
+      ]
+    },
+    {
+      "dataset": "svamp_qwen_seed42",
+      "policy": "CoS-inspired Scrutiny",
+      "values": [
+        "77/100",
+        "80/100",
+        "3",
+        "0/100",
+        "0/100"
+      ]
+    }
+  ],
+  "table_iii": [
+    {
+      "policy": "Contract Blocking / CV14",
+      "values": [
+        "61/100",
+        "80/80",
+        "0"
+      ]
+    },
+    {
+      "policy": "Full Agreement, 7B (FA7)",
+      "values": [
+        "43/100",
+        "6/80",
+        "1"
+      ]
+    },
+    {
+      "policy": "Full Agreement, 14B (FA14)",
+      "values": [
+        "46/100",
+        "8/80",
+        "1"
+      ]
+    },
+    {
+      "policy": "Dual agreement, 7B+14B",
+      "values": [
+        "40/100",
+        "5/80",
+        "2"
+      ]
+    },
+    {
+      "policy": "Task-native critique, 14B",
+      "values": [
+        "31/100",
+        "8/80",
+        "1"
+      ]
+    },
+    {
+      "policy": "Independent-reason scrutiny",
+      "values": [
+        "46/100",
+        "8/80",
+        "2"
+      ]
+    },
+    {
+      "policy": "All Withhold",
+      "values": [
+        "0/100",
+        "0/80",
+        "0"
+      ]
+    }
+  ],
+  "table_iv": [
+    {
+      "dataset": "gsm8k_qwen_seed42",
+      "policy": "Contract Blocking",
+      "n": 400,
+      "values": [
+        "6.92",
+        "6.18",
+        "11.11"
+      ]
+    },
+    {
+      "dataset": "gsm8k_qwen_seed42",
+      "policy": "Conditional Verification",
+      "n": 400,
+      "values": [
+        "8.98",
+        "7.48",
+        "16.31"
+      ]
+    },
+    {
+      "dataset": "gsm8k_qwen_seed42",
+      "policy": "Clean Solver",
+      "n": 400,
+      "values": [
+        "6.41",
+        "6.08",
+        "10.05"
+      ]
+    },
+    {
+      "dataset": "gsm8k_qwen_seed42",
+      "policy": "Full Replacement",
+      "n": 400,
+      "values": [
+        "13.65",
+        "12.54",
+        "20.94"
+      ]
+    },
+    {
+      "dataset": "gsm8k_qwen_seed42",
+      "policy": "CoS-inspired Scrutiny",
+      "n": 400,
+      "values": [
+        "17.27",
+        "15.84",
+        "25.73"
+      ]
+    },
+    {
+      "dataset": "svamp_qwen_seed42",
+      "policy": "Contract Blocking",
+      "n": 200,
+      "values": [
+        "2.33",
+        "2.31",
+        "2.84"
+      ]
+    },
+    {
+      "dataset": "svamp_qwen_seed42",
+      "policy": "Conditional Verification",
+      "n": 200,
+      "values": [
+        "4.35",
+        "3.89",
+        "8.06"
+      ]
+    },
+    {
+      "dataset": "svamp_qwen_seed42",
+      "policy": "Clean Solver",
+      "n": 200,
+      "values": [
+        "4.08",
+        "3.64",
+        "6.32"
+      ]
+    },
+    {
+      "dataset": "svamp_qwen_seed42",
+      "policy": "Full Replacement",
+      "n": 200,
+      "values": [
+        "6.52",
+        "6.13",
+        "9.25"
+      ]
+    },
+    {
+      "dataset": "svamp_qwen_seed42",
+      "policy": "CoS-inspired Scrutiny",
+      "n": 200,
+      "values": [
+        "19.09",
+        "9.03",
+        "36.09"
+      ]
+    }
+  ],
+  "table_v": [
+    {
+      "arm": "7B three-shot",
+      "values": [
+        "23",
+        "29",
+        "41"
+      ]
+    },
+    {
+      "arm": "14B zero-shot",
+      "values": [
+        "30",
+        "36",
+        "45"
+      ]
+    },
+    {
+      "arm": "14B three-shot",
+      "values": [
+        "29",
+        "37",
+        "51"
+      ]
+    },
+    {
+      "arm": "Benign LoRA",
+      "values": [
+        "51/55/51",
+        "53/57/54",
+        "54/59/56"
+      ]
+    },
+    {
+      "arm": "Poisoned LoRA",
+      "values": [
+        "46/49/52",
+        "50/51/53",
+        "51/53/55"
+      ]
+    },
+    {
+      "arm": "Benign LoRA",
+      "values": [
+        "41/44/41",
+        "37/37/37"
+      ]
+    },
+    {
+      "arm": "Poisoned LoRA",
+      "values": [
+        "36/40/43",
+        "37/37/37"
+      ]
+    }
+  ]
+}

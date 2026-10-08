@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-04T16:15:53.214351+00:00",
+  "protocol_sha256": "7d17637cb7228c777e7ec79abe8cdc93fee5c5e013ee563210070f65f16f0cfc",
+  "formal_unique_questions": 75,
+  "final_target_eligible_questions": 39,
+  "new_formal_generations": 1125,
+  "final_condition_records": 1575,
+  "formal_gold_conditioned_generation": false,
+  "attack_feedback_queries": 240,
+  "new_formal_training_runs": 5,
+  "reused_pilot_benign_adapters": 1,
+  "confirmed_delivery_measured": false,
+  "protected_question_gold_never_used_by_controller": true,
+  "search_never_used_formal_data": true
+}

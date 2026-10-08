@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+*.aux
+*.log
+*.out
+*.safetensors
+.r2d2/
+reproduction_output*/
+verification_*.json
