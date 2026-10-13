@@ -1,9 +1,14 @@
 # R2D2-Guard: Auditable Release Policies for LoRA-Adapted LLM Services
 
-Public reproduction materials for the TETC submission by Zuo Wang, Tianyi Li,
-Wanli Wu, Yiyan Liu and Yanfeng Zhu (2026). Corresponding author:
-zyf@hlju.edu.cn. This is a submission artifact; no accepted publication or DOI
-is asserted. Frozen version: [v1.0.0](https://github.com/3059813545/R2D2-Guard/releases/tag/v1.0.0).
+Public reproduction materials for the TETC submission by Zuo Wang, Wanli Wu,
+Yiyan Liu, Kejia Zhang and Yanfeng Zhu (2026). Corresponding author:
+zyf@hlju.edu.cn. This is a submission artifact; no accepted journal publication
+or journal-article DOI is asserted. Dataset DOI: [10.21227/09ep-h346](https://doi.org/10.21227/09ep-h346).
+Frozen experimental version: [v1.0.0](https://github.com/3059813545/R2D2-Guard/releases/tag/v1.0.0).
+
+The current author metadata was corrected on 2026-10-14 to match the submitted
+manuscript. The immutable v1.0.0 tag, release assets and historical snapshots
+retain their original bytes; see [METADATA_CORRECTION_20261014.md](METADATA_CORRECTION_20261014.md).
 
 ## Rebuild the recorded main tables (CPU)
 
@@ -58,7 +63,7 @@ hardware and software; matching historical outputs bit for bit is not promised.
 | `adaptive_nei_gated_v1/` | All 80 pilot queries and the failed expansion gate; S21 |
 | `historical_replay_archives/` | Four original mathematical/response/task-native archives with their own manifests and frozen entry points |
 | `code/historical/` | Browseable byte-identical copies of Python sources from those archives; execute using the original archive context |
-| `submission_snapshot/` | Current main/supplement sources, PDFs and figure assets |
+| `submission_snapshot/` | Frozen 2026-10-08 main/supplement sources, PDFs and figure assets; see the metadata correction note |
 | `extended_evidence/` | Historical expanded 44-page record and detailed per-condition tables |
 | `UPSTREAM_NOTICES/` | Data/model attribution and licenses |
 
@@ -89,5 +94,7 @@ experimental research artifacts. Base models must be obtained from their
 official providers under their own terms.
 
 Use [CITATION.cff](CITATION.cff) for the authors, title, version and repository
-URL. A DOI has not been assigned. Cite the tagged release when reporting a
-reconstruction; do not treat a moving branch as an immutable experimental input.
+URL. The associated dataset DOI is [10.21227/09ep-h346](https://doi.org/10.21227/09ep-h346);
+it identifies the data deposit, not an accepted journal article. Cite the tagged
+release when reporting a reconstruction and consult the current author correction;
+do not treat a moving branch as an immutable experimental input.

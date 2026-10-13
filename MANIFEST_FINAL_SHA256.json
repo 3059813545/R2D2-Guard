@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-14",
   "version": "v1.0.0",
-  "scope": "Public code and recorded evidence; weight assets have a separate manifest; self-manifest, git internals and user output excluded.",
+  "scope": "Public code and recorded evidence; current author metadata corrected on 2026-10-14; experimental version v1.0.0 remains frozen. Weight assets have a separate manifest; self-manifest, git internals and user output excluded.",
   "files": {
     ".gitattributes": "37a92ba2313dfe4e276fe111c33bac667fc7da2b18a709961fe19f2238d42d5f",
     ".github/workflows/reproduce.yml": "2a041df404a8fbcb91aa783579a959add0c8d7d4512d0f9f3d93a3d0f3ad8e7f",
@@ -26,7 +26,7 @@
     "adaptive_nei_gated_v1/run_nei_gate.py": "b086d8f92fedecbe40934e015f05a948061783bc4790eb198303241c9205e618",
     "adaptive_nei_gated_v1/verify_nei_tokens.py": "bc98442923e0afe5a71e8f3c4d982e975b82d6eb194284f474d954c13b54310b",
     "BASE_AUXILIARY.json": "df6f0b6ebedbf2f25f74f03e540444d5abea7939f6261cbdb9e0d2758e28ca04",
-    "CITATION.cff": "fc048ea74a62120173b8fb6c6606f33b6f87b1aa883b274297b900a47fab96f4",
+    "CITATION.cff": "778e6b3fe64f8814d619bf8c5315b527589ef76e08f4a5d11a637749f0e50bbe",
     "code/historical/R2D2_Guard_extension_source_correction_20261003/audit_completed_experiment.py": "2af4461c2aedaf2880e972036006feb5a2c3834647fd28684f335c491d80437d",
     "code/historical/R2D2_Guard_extension_source_correction_20261003/e5_response_parser.py": "c248590b71b6ab946a1aaca0e03cc26e53dab297fd6098bb0e71d03ddf441ca8",
     "code/historical/R2D2_Guard_extension_source_correction_20261003/reanalyze_source_corrected.py": "7f0546b3b2d7b19aecd1a85b9831b1a04cc64cb28685da08ab176eab6f841a29",
@@ -123,7 +123,7 @@
     "INDEPENDENT_VERIFICATION_20261008.json": "bae83313c6cb60c5e64a3b465f134609f529b1dd47420ce70a4ca481cf8e6517",
     "LICENSE": "d32142c1f0ba5887e62eb9924172c611ad3696a66feb2ada495812a241e06234",
     "MANIFEST_SHA256.json": "c9906e7656de9aa607caa8cb2dd04b6f6ec846d30f2a4568b031f1f3326eeacd",
-    "README.md": "15f4d125156f1d7db9a137e0cc2dbc79df6ad4aed961c32235a51b155304b7b4",
+    "README.md": "e0124e676de0ebd5f4cf51377322b42e741ad6f548184c3ec676f7f644e0ce06",
     "README_REVIEWER.md": "caaadfffc8a17638564ec025a71c5f1ff3c97ee57f8036a0c300bfdf1df46110",
     "README_START_HERE.md": "51025b97475f1d55c772a75207fa636bbe1860a9d08f02d8e52d99e36cf38933",
     "RECORDED_ENVIRONMENT.json": "c641264587cbac757afadfa0ba56f39404c21a0bcea4429c44f8d226960a0b30",
@@ -283,6 +283,7 @@
     "UPSTREAM_NOTICES/SVAMP_LICENSE.txt": "07ce3a34de7a865345634f9278bc26ddcacc2d0defd348c28e3f4603448b9ba4",
     "verify_artifact_integrity.py": "ef24c7eeb30954d73e0c57554e9bafd5e26107fb08c705bd2e531cf7a58cab5a",
     "verify_recorded_results.py": "2fd172df0284e75d58685afe234c7a225a9fff288fbb47fd027eb9ac80c26125",
-    "verify_submission.py": "9a456c85ed1a420a35eaec704b4630354d7a5e44f3001fa19198df7cade614a9"
+    "verify_submission.py": "9a456c85ed1a420a35eaec704b4630354d7a5e44f3001fa19198df7cade614a9",
+    "METADATA_CORRECTION_20261014.md": "09ce1d7a17dab365414570f41b3a1638511c7031468c9990799d5e93276c1d4f"
   }
 }
